@@ -1,5 +1,5 @@
 (fp_lib_table
 	(version 7)
 	(lib (name "NCS2-62+") (type "KiCad") (uri "${KIPRJMOD}/NCS2-62+/NCS2-62+.pretty") (options "") (descr ""))
-	(lib (name "RF Frontend Footprints") (type "KiCad") (uri "${KIPRJMOD}/RF Frontend Footprints.pretty") (options "") (descr ""))
+	(lib (name "RF Frontend Footprints") (type "KiCad") (uri "${KIPRJMOD}/Components/RF Frontend Footprints.pretty") (options "") (descr ""))
 )

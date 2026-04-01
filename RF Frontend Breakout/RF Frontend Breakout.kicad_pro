@@ -252,9 +252,7 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [
-      "RF Frontend Footprints"
-    ],
+    "pinned_footprint_libs": [],
     "pinned_symbol_libs": []
   },
   "meta": {
