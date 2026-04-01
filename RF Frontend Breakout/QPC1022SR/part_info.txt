@@ -1,0 +1,9 @@
+Manufacturer=Qorvo
+PartNumber=QPC1022SR
+PartCategory=Integrated Circuit
+PackageCategory=Other
+PinCount=9
+Version=1.2
+Released=2021-03-07 12:44:07
+Downloaded=2026-04-01 17:32:42
+3D=Y

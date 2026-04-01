@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP QPC1022SR
+D RF Switch ICs 5-6000MHz SPDT IL .25dB Iso 39dB
+K
+F https://www.mouser.fr/datasheet/2/412/QPC1022_Data_Sheet-1504711.pdf
+$ENDCMP
+#
+#End Doc Library

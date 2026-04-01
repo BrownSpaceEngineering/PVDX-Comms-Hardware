@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NCS2-62+
+D RF Balun 390MHz ~ 590MHz 1:2 0805 (2012 Metric), 6 PC Pad
+K
+F https://www.minicircuits.com/WebStore/dashboardPdf?model=NCS2-62%2B
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,27 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model NCS2-62+
+#/15637050/1662881/2.50/6/3/Filter
+DEF NCS2-62+ FL 0 30 Y Y 1 F N
+F0 "FL" 3250 300 50 H V L CNN
+F1 "NCS2-62+" 3250 200 50 H V L CNN
+F2 "NCS262" 3250 100 50 H I L CNN
+F3 "https://www.minicircuits.com/WebStore/dashboardPdf?model=NCS2-62%2B" 3250 0 50 H I L CNN
+F4 "RF Balun 390MHz ~ 590MHz 1:2 0805 (2012 Metric), 6 PC Pad" 3250 -100 50 H I L CNN "Description"
+F5 "1.0686" 3250 -200 50 H I L CNN "Height"
+F6 "139-NCS2-62" 3250 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Mini-Circuits/NCS2-62%2b?qs=xZ%2FP%252Ba9zWqYa5gw2AdyHiw%3D%3D" 3250 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Mini-Circuits" 3250 -500 50 H I L CNN "Manufacturer_Name"
+F9 "NCS2-62+" 3250 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X SECONDARY_DOT_(BALANCED) 1 0 0 200 R 50 50 0 0 P
+X PRIMARY_(GND)_1 2 0 -100 200 R 50 50 0 0 P
+X SECONDARY_(BALANCED)_ 3 0 -200 200 R 50 50 0 0 P
+X PRIMARY_DOT_(UNBALANCED_PORT) 4 3400 -200 200 L 50 50 0 0 P
+X NO_CONNECTION 5 3400 -100 200 L 50 50 0 0 P
+X PRIMARY_(GND)_2 6 3400 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 3200 100 3200 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

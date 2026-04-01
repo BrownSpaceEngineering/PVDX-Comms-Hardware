@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LHA-13LN+
+D RF Amplifier SMT Low Noise Amplifier, 1 - 1000 MHz, 50 ohms
+K
+F https://www.minicircuits.com/pdfs/LHA-13LN+.pdf
+$ENDCMP
+#
+#End Doc Library
