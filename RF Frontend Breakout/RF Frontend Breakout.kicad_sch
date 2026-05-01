@@ -8073,7 +8073,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 19.05 106.68 0)
+		(at 19.05 96.52 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8084,7 +8084,7 @@
 		(fields_autoplaced yes)
 		(uuid "5225398d-e597-494e-8995-a17749929ffa")
 		(property "Reference" "#PWR021"
-			(at 19.05 113.03 0)
+			(at 19.05 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8095,17 +8095,18 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 19.05 111.76 0)
+			(at 21.59 95.2499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 19.05 106.68 0)
+			(at 19.05 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8116,7 +8117,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 19.05 106.68 0)
+			(at 19.05 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8127,7 +8128,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 19.05 106.68 0)
+			(at 19.05 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10212,7 +10213,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_Coaxial")
-		(at 19.05 101.6 90)
+		(at 19.05 101.6 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10222,7 +10223,7 @@
 		(dnp no)
 		(uuid "96860590-f1f7-440f-958b-fbdf3ae50852")
 		(property "Reference" "J6"
-			(at 23.368 97.028 90)
+			(at 14.478 97.282 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10232,7 +10233,7 @@
 			)
 		)
 		(property "Value" "Conn_Coaxial"
-			(at 20.066 94.742 90)
+			(at 12.192 100.584 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
