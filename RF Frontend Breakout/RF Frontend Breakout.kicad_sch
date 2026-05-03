@@ -627,171 +627,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:FerriteBead"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "FB"
-				(at -3.81 0.635 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "FerriteBead"
-				(at 3.81 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Ferrite bead"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "L ferrite bead inductor filter"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Inductor_* L_* *Ferrite*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "FerriteBead_0_1"
-				(polyline
-					(pts
-						(xy -2.7686 0.4064) (xy -1.7018 2.2606) (xy 2.7686 -0.3048) (xy 1.6764 -2.159) (xy -2.7686 0.4064)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy 0 1.2954)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy 0 -1.2192)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "FerriteBead_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:L"
 			(pin_numbers
 				(hide yes)
@@ -2903,8 +2738,8 @@
 		(uuid "7d965edb-134b-4fc9-9fa3-34543bfdade9")
 	)
 	(rectangle
-		(start 133.35 17.78)
-		(end 220.98 72.39)
+		(start 45.72 17.78)
+		(end 133.35 72.39)
 		(stroke
 			(width 0)
 			(type default)
@@ -3246,7 +3081,7 @@
 		(uuid "3ae6638a-6067-44b9-a519-85e746aa7dc6")
 	)
 	(junction
-		(at 41.91 185.42)
+		(at 41.91 186.69)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3ba8180e-e79e-4e87-9612-c57dc40dd1ef")
@@ -4103,7 +3938,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 184.15) (xy 41.91 185.42)
+			(xy 41.91 185.42) (xy 41.91 186.69)
 		)
 		(stroke
 			(width 0)
@@ -4300,16 +4135,6 @@
 			(type default)
 		)
 		(uuid "bc741c08-4c14-44e6-86fd-19eb8c2d26da")
-	)
-	(wire
-		(pts
-			(xy 30.48 185.42) (xy 30.48 186.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "be4f515d-3511-4e6f-b3e3-80af3ff46f6d")
 	)
 	(wire
 		(pts
@@ -4533,16 +4358,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 185.42) (xy 41.91 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e7376c4e-00d7-49ef-ae0b-e425e6c314db")
-	)
-	(wire
-		(pts
 			(xy 245.11 119.38) (xy 245.11 160.02)
 		)
 		(stroke
@@ -4573,7 +4388,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 186.69) (xy 29.21 186.69)
+			(xy 29.21 186.69) (xy 41.91 186.69)
 		)
 		(stroke
 			(width 0)
@@ -5766,86 +5581,6 @@
 			(project "RF Frontend Breakout"
 				(path "/1be17eac-b555-466e-8bd3-43262e2e1b9c"
 					(reference "#PWR051")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:FerriteBead")
-		(at 34.29 185.42 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1b4d117f-bb30-4898-99bd-c1e816f94da1")
-		(property "Reference" "FB1"
-			(at 34.2392 177.8 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "FerriteBead"
-			(at 34.2392 180.34 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 34.29 187.198 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 34.29 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Ferrite bead"
-			(at 34.29 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1dc1c9cc-e855-4bc9-bd08-36a9b3af7c1c")
-		)
-		(pin "2"
-			(uuid "18d31b68-f5c0-4e26-812e-055bf23bf5a9")
-		)
-		(instances
-			(project "RF Frontend Breakout"
-				(path "/1be17eac-b555-466e-8bd3-43262e2e1b9c"
-					(reference "FB1")
 					(unit 1)
 				)
 			)
@@ -7344,7 +7079,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 41.91 185.42 270)
+		(at 41.91 186.69 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7354,7 +7089,7 @@
 		(dnp no)
 		(uuid "450a7e90-3e5c-46b8-92e4-aceefe026094")
 		(property "Reference" "#FLG01"
-			(at 43.815 185.42 0)
+			(at 43.815 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7365,7 +7100,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 46.482 185.674 90)
+			(at 46.482 186.944 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7376,7 +7111,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 41.91 185.42 0)
+			(at 41.91 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7387,7 +7122,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 41.91 185.42 0)
+			(at 41.91 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7398,7 +7133,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 41.91 185.42 0)
+			(at 41.91 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8395,7 +8130,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "67b3e921-e90d-4598-9ae1-776e2cd92d62")
 		(property "Reference" "#PWR025"
 			(at 139.7 144.78 0)
@@ -9738,7 +9472,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 41.91 184.15 0)
+		(at 41.91 185.42 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9749,7 +9483,7 @@
 		(fields_autoplaced yes)
 		(uuid "899d51bf-7b77-4e70-93d0-594a39aa1396")
 		(property "Reference" "#PWR01"
-			(at 41.91 187.96 0)
+			(at 41.91 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9760,7 +9494,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 41.91 179.07 0)
+			(at 41.91 180.34 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9770,7 +9504,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 41.91 184.15 0)
+			(at 41.91 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9781,7 +9515,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 41.91 184.15 0)
+			(at 41.91 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9792,7 +9526,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 41.91 184.15 0)
+			(at 41.91 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
