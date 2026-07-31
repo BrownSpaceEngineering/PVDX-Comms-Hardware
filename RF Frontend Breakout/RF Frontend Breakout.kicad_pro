@@ -40,8 +40,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.95,
-          "width": 0.8
+          "height": 0.46,
+          "width": 0.95
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -50,7 +50,23 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.2
+          "border_display_style": 2,
+          "border_hatch_pitch": 0.5,
+          "corner_radius": 0.0,
+          "corner_smoothing": 0,
+          "fill_mode": 0,
+          "hatch_gap": 1.5,
+          "hatch_orientation": 0.0,
+          "hatch_smoothing_level": 0,
+          "hatch_smoothing_value": 0.1,
+          "hatch_thickness": 1.0,
+          "min_clearance": 3.0,
+          "min_island_area": 10.0,
+          "min_thickness": 0.25,
+          "pad_connection": 1,
+          "remove_islands": 0,
+          "thermal_relief_gap": 0.5,
+          "thermal_relief_spoke_width": 0.5
         }
       },
       "diff_pair_dimensions": [
@@ -60,7 +76,64 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "clearance|176640000|115500000|57b3599f-41c2-424a-90b8-c29155ef975c|f750301e-78ec-4ce6-905a-89f1a2512d7c",
+          ""
+        ],
+        [
+          "clearance|176740000|115600000|b2b38954-c70d-4f5b-8d0e-e785f742276c|f750301e-78ec-4ce6-905a-89f1a2512d7c",
+          ""
+        ],
+        [
+          "clearance|176740000|116600000|6540ae02-110d-4855-af3b-ff209d9c87ec|c0f36e85-8a75-4e26-b314-b5732227fe6d",
+          ""
+        ],
+        [
+          "clearance|176772000|116436000|6540ae02-110d-4855-af3b-ff209d9c87ec|bebb68dc-9e13-4a60-a2a0-d8d3658b50cb",
+          ""
+        ],
+        [
+          "clearance|176940000|116000000|c568ef65-2931-4dca-a6a0-95c2a2657914|f750301e-78ec-4ce6-905a-89f1a2512d7c",
+          ""
+        ],
+        [
+          "clearance|176940000|116200000|6540ae02-110d-4855-af3b-ff209d9c87ec|c568ef65-2931-4dca-a6a0-95c2a2657914",
+          ""
+        ],
+        [
+          "clearance|177040000|116100000|df79465a-92e8-4631-beea-6d3862ad9221|f750301e-78ec-4ce6-905a-89f1a2512d7c",
+          ""
+        ],
+        [
+          "clearance|94850000|120400000|416e86f7-a913-4fe1-b18a-f441ea13dc9e|b3594935-b0b5-49b0-a522-8ee2db6e9b6c",
+          ""
+        ],
+        [
+          "clearance|94950000|120300000|4c573096-d827-446f-b97b-60914b484272|b3594935-b0b5-49b0-a522-8ee2db6e9b6c",
+          ""
+        ],
+        [
+          "clearance|94950000|120500000|4c573096-d827-446f-b97b-60914b484272|7bf2a3a1-885c-46c0-8c4c-4ddd6ca4427e",
+          ""
+        ],
+        [
+          "clearance|95122163|120740540|7bf2a3a1-885c-46c0-8c4c-4ddd6ca4427e|e6521b5b-b5fb-4438-affc-43f41831381b",
+          ""
+        ],
+        [
+          "clearance|95150000|119900000|b3594935-b0b5-49b0-a522-8ee2db6e9b6c|e781a9db-a605-4dc1-858f-a695f58ee676",
+          ""
+        ],
+        [
+          "clearance|95150000|120900000|7bf2a3a1-885c-46c0-8c4c-4ddd6ca4427e|fed0b919-b23a-426f-a253-49967e378b86",
+          ""
+        ],
+        [
+          "clearance|95250000|119800000|3c65e7bb-a284-4fc6-be51-30e796f21030|b3594935-b0b5-49b0-a522-8ee2db6e9b6c",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -659,7 +732,7 @@
         "uuid": "1be17eac-b555-466e-8bd3-43262e2e1b9c"
       }
     ],
-    "used_designators": "",
+    "used_designators": "TP1-9,R1-9,L1-6,IC1-4,J1-4,FL1-2,C1-20,#PWR1-53,#FLG1-2",
     "variants": []
   },
   "sheets": [

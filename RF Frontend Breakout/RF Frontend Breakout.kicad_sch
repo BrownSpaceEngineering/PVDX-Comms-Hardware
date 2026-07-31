@@ -2738,8 +2738,8 @@
 		(uuid "7d965edb-134b-4fc9-9fa3-34543bfdade9")
 	)
 	(rectangle
-		(start 45.72 17.78)
-		(end 133.35 72.39)
+		(start 132.08 17.78)
+		(end 219.71 72.39)
 		(stroke
 			(width 0)
 			(type default)
@@ -3321,12 +3321,6 @@
 		(uuid "f23f92c9-881f-461a-ba72-5ba6aae186c5")
 	)
 	(junction
-		(at 110.49 156.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f46cb783-50b3-4dc4-9282-3336bbddbb4b")
-	)
-	(junction
 		(at 210.82 160.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3335,16 +3329,6 @@
 	(no_connect
 		(at 44.45 123.19)
 		(uuid "d07be745-ac09-4fd1-a699-60eebfd9563c")
-	)
-	(wire
-		(pts
-			(xy 106.68 156.21) (xy 110.49 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "020f8ed8-4b7b-452a-9cfc-6cc06f93f1a3")
 	)
 	(wire
 		(pts
@@ -4775,7 +4759,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "042fee62-3696-447f-925f-57e253382f21")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR037"
 			(at 180.34 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -4835,7 +4819,7 @@
 		(instances
 			(project "RF Frontend Breakout"
 				(path "/1be17eac-b555-466e-8bd3-43262e2e1b9c"
-					(reference "#PWR036")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -5120,7 +5104,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0c820278-86c3-4008-9e1a-1326b54840f3")
-		(property "Reference" "J3"
+		(property "Reference" "J4"
 			(at 278.638 104.394 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5182,7 +5166,7 @@
 		(instances
 			(project "RF Frontend Breakout"
 				(path "/1be17eac-b555-466e-8bd3-43262e2e1b9c"
-					(reference "J3")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -5200,7 +5184,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1532ca08-9842-43f4-a442-b64306331cf4")
-		(property "Reference" "C18"
+		(property "Reference" "C19"
 			(at 227.33 92.7099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5264,7 +5248,7 @@
 		(instances
 			(project "RF Frontend Breakout"
 				(path "/1be17eac-b555-466e-8bd3-43262e2e1b9c"
-					(reference "C18")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -5281,7 +5265,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1879ebf5-67ca-4176-afa7-ad0745ffff81")
-		(property "Reference" "C17"
+		(property "Reference" "C18"
 			(at 218.186 153.416 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5343,7 +5327,7 @@
 		(instances
 			(project "RF Frontend Breakout"
 				(path "/1be17eac-b555-466e-8bd3-43262e2e1b9c"
-					(reference "C17")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -5361,7 +5345,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "18dd4644-591b-4a17-90ac-a3590ba6bdf8")
-		(property "Reference" "J5"
+		(property "Reference" "J3"
 			(at 28.448 114.554 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5423,7 +5407,7 @@
 		(instances
 			(project "RF Frontend Breakout"
 				(path "/1be17eac-b555-466e-8bd3-43262e2e1b9c"
-					(reference "J5")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -5441,7 +5425,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1a0f3d9e-85f5-47e8-82f5-3e1977bfbce3")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR039"
 			(at 204.47 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -5502,7 +5486,7 @@
 		(instances
 			(project "RF Frontend Breakout"
 				(path "/1be17eac-b555-466e-8bd3-43262e2e1b9c"
-					(reference "#PWR038")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -5520,7 +5504,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1ade7091-726b-41ed-9069-826341a9e69f")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR053"
 			(at 274.32 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -5580,7 +5564,7 @@
 		(instances
 			(project "RF Frontend Breakout"
 				(path "/1be17eac-b555-466e-8bd3-43262e2e1b9c"
-					(reference "#PWR051")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -5597,7 +5581,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1bf822f6-d24a-49c8-a516-1b4f0dca1fc6")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR014"
 			(at 90.17 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -5657,7 +5641,7 @@
 		(instances
 			(project "RF Frontend Breakout"
 				(path "/1be17eac-b555-466e-8bd3-43262e2e1b9c"
-					(reference "#PWR012")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -5675,7 +5659,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1ce823be-7e04-4942-a901-f992defc19fb")
-		(property "Reference" "C6"
+		(property "Reference" "C7"
 			(at 146.304 21.336 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5737,7 +5721,7 @@
 		(instances
 			(project "RF Frontend Breakout"
 				(path "/1be17eac-b555-466e-8bd3-43262e2e1b9c"
-					(reference "C6")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -5832,7 +5816,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1f9a3e51-3a84-450f-9ae5-894f8489d524")
-		(property "Reference" "J4"
+		(property "Reference" "J2"
 			(at 20.32 180.594 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5894,7 +5878,7 @@
 		(instances
 			(project "RF Frontend Breakout"
 				(path "/1be17eac-b555-466e-8bd3-43262e2e1b9c"
-					(reference "J4")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -5911,7 +5895,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "22cad13c-0e07-4986-9029-189a4b4eb4f8")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR029"
 			(at 153.67 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -5971,7 +5955,7 @@
 		(instances
 			(project "RF Frontend Breakout"
 				(path "/1be17eac-b555-466e-8bd3-43262e2e1b9c"
-					(reference "#PWR028")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -6071,7 +6055,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2637d68e-a2b8-40c1-bbb2-d06097b2bce3")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR023"
 			(at 115.57 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -6131,7 +6115,7 @@
 		(instances
 			(project "RF Frontend Breakout"
 				(path "/1be17eac-b555-466e-8bd3-43262e2e1b9c"
-					(reference "#PWR022")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -6149,7 +6133,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2a251d0f-8c03-4494-af9f-71b8256487ab")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR07"
 			(at 69.85 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -6209,7 +6193,7 @@
 		(instances
 			(project "RF Frontend Breakout"
 				(path "/1be17eac-b555-466e-8bd3-43262e2e1b9c"
-					(reference "#PWR05")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -6227,7 +6211,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2c44a192-d0a2-46da-8752-6814289631a4")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR09"
 			(at 74.93 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -6287,7 +6271,7 @@
 		(instances
 			(project "RF Frontend Breakout"
 				(path "/1be17eac-b555-466e-8bd3-43262e2e1b9c"
-					(reference "#PWR07")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -6383,7 +6367,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2fa083ec-5295-42c8-a303-32a870c19315")
-		(property "Reference" "C3"
+		(property "Reference" "C4"
 			(at 109.22 92.7101 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6447,7 +6431,7 @@
 		(instances
 			(project "RF Frontend Breakout"
 				(path "/1be17eac-b555-466e-8bd3-43262e2e1b9c"
-					(reference "C3")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -6542,7 +6526,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "33727fc3-b744-4f90-8c2b-70bf410d0f0d")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR025"
 			(at 128.27 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -6602,7 +6586,7 @@
 		(instances
 			(project "RF Frontend Breakout"
 				(path "/1be17eac-b555-466e-8bd3-43262e2e1b9c"
-					(reference "#PWR024")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -6699,7 +6683,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3a1b08c3-82c9-4d0d-9479-1c44369ec06c")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR012"
 			(at 83.82 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -6760,7 +6744,7 @@
 		(instances
 			(project "RF Frontend Breakout"
 				(path "/1be17eac-b555-466e-8bd3-43262e2e1b9c"
-					(reference "#PWR010")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -6778,7 +6762,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3bd55ea3-bb7f-49c9-aad1-b3a162e5b9cb")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR049"
 			(at 228.6 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -6838,7 +6822,7 @@
 		(instances
 			(project "RF Frontend Breakout"
 				(path "/1be17eac-b555-466e-8bd3-43262e2e1b9c"
-					(reference "#PWR048")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -6933,7 +6917,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4423c54e-4319-4879-87b8-58df92e9c1ba")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR022"
 			(at 110.49 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -6993,7 +6977,7 @@
 		(instances
 			(project "RF Frontend Breakout"
 				(path "/1be17eac-b555-466e-8bd3-43262e2e1b9c"
-					(reference "#PWR019")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -7011,7 +6995,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4445cbe0-b5f8-4776-bdb7-f1d3653f99d6")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR08"
 			(at 69.85 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -7071,7 +7055,7 @@
 		(instances
 			(project "RF Frontend Breakout"
 				(path "/1be17eac-b555-466e-8bd3-43262e2e1b9c"
-					(reference "#PWR06")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -7167,7 +7151,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4677ab59-6781-431a-9a56-b3692e799e14")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR02"
 			(at 38.1 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -7227,7 +7211,7 @@
 		(instances
 			(project "RF Frontend Breakout"
 				(path "/1be17eac-b555-466e-8bd3-43262e2e1b9c"
-					(reference "#PWR052")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -7662,7 +7646,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "51b018fb-e09c-4b0e-85a6-b8e09fc9af32")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR06"
 			(at 50.8 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -7722,7 +7706,7 @@
 		(instances
 			(project "RF Frontend Breakout"
 				(path "/1be17eac-b555-466e-8bd3-43262e2e1b9c"
-					(reference "#PWR053")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -7740,7 +7724,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "51d7cc16-ad24-4199-80ab-2c3844e794d0")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR043"
 			(at 207.01 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -7800,7 +7784,7 @@
 		(instances
 			(project "RF Frontend Breakout"
 				(path "/1be17eac-b555-466e-8bd3-43262e2e1b9c"
-					(reference "#PWR042")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -7818,7 +7802,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5225398d-e597-494e-8995-a17749929ffa")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR01"
 			(at 19.05 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -7879,7 +7863,7 @@
 		(instances
 			(project "RF Frontend Breakout"
 				(path "/1be17eac-b555-466e-8bd3-43262e2e1b9c"
-					(reference "#PWR021")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -7973,7 +7957,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5abd69c2-8cf8-4e33-bc5d-393ce947ae41")
-		(property "Reference" "C4"
+		(property "Reference" "C5"
 			(at 138.684 159.258 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8035,7 +8019,7 @@
 		(instances
 			(project "RF Frontend Breakout"
 				(path "/1be17eac-b555-466e-8bd3-43262e2e1b9c"
-					(reference "C4")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -8052,7 +8036,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6668f399-b415-4124-b27c-d8b960cc4641")
-		(property "Reference" "C5"
+		(property "Reference" "C6"
 			(at 139.446 51.054 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8114,7 +8098,7 @@
 		(instances
 			(project "RF Frontend Breakout"
 				(path "/1be17eac-b555-466e-8bd3-43262e2e1b9c"
-					(reference "C5")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -8131,7 +8115,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "67b3e921-e90d-4598-9ae1-776e2cd92d62")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR026"
 			(at 139.7 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -8191,7 +8175,7 @@
 		(instances
 			(project "RF Frontend Breakout"
 				(path "/1be17eac-b555-466e-8bd3-43262e2e1b9c"
-					(reference "#PWR025")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -8286,7 +8270,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "68eabe85-3f0d-4277-93c5-ef180779e15d")
-		(property "Reference" "C10"
+		(property "Reference" "C11"
 			(at 194.31 135.89 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8348,7 +8332,7 @@
 		(instances
 			(project "RF Frontend Breakout"
 				(path "/1be17eac-b555-466e-8bd3-43262e2e1b9c"
-					(reference "C10")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -8366,7 +8350,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6d2823fb-f8d0-43e1-afee-0d89f6c70e64")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR030"
 			(at 151.13 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -8426,7 +8410,7 @@
 		(instances
 			(project "RF Frontend Breakout"
 				(path "/1be17eac-b555-466e-8bd3-43262e2e1b9c"
-					(reference "#PWR029")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -8444,7 +8428,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6da675c6-9752-41b2-876d-c1185e6a06f0")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR042"
 			(at 204.47 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -8504,7 +8488,7 @@
 		(instances
 			(project "RF Frontend Breakout"
 				(path "/1be17eac-b555-466e-8bd3-43262e2e1b9c"
-					(reference "#PWR041")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -8523,7 +8507,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6e3aac95-b89f-45b0-885a-19048f113351")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR045"
 			(at 213.36 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -8583,7 +8567,7 @@
 		(instances
 			(project "RF Frontend Breakout"
 				(path "/1be17eac-b555-466e-8bd3-43262e2e1b9c"
-					(reference "#PWR040")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -8765,7 +8749,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "71c32dd6-15a6-45be-af31-1dac8bbc2b32")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR035"
 			(at 167.64 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -8826,7 +8810,7 @@
 		(instances
 			(project "RF Frontend Breakout"
 				(path "/1be17eac-b555-466e-8bd3-43262e2e1b9c"
-					(reference "#PWR034")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -9007,7 +8991,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "79d8d6b4-89bb-462e-becb-f93e9e585c3d")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR032"
 			(at 157.48 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -9067,7 +9051,7 @@
 		(instances
 			(project "RF Frontend Breakout"
 				(path "/1be17eac-b555-466e-8bd3-43262e2e1b9c"
-					(reference "#PWR031")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -9085,7 +9069,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7d624b6f-3a12-42e8-b9c3-e1dbb1bfb1fa")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR034"
 			(at 166.37 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -9146,7 +9130,7 @@
 		(instances
 			(project "RF Frontend Breakout"
 				(path "/1be17eac-b555-466e-8bd3-43262e2e1b9c"
-					(reference "#PWR033")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -9164,7 +9148,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8362c95d-673d-4122-9915-3e2dad3c0ef9")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR038"
 			(at 198.12 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -9224,7 +9208,7 @@
 		(instances
 			(project "RF Frontend Breakout"
 				(path "/1be17eac-b555-466e-8bd3-43262e2e1b9c"
-					(reference "#PWR037")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -9322,7 +9306,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "85f72331-e4c0-4e0c-b586-a85e53aef071")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR027"
 			(at 135.89 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -9383,7 +9367,7 @@
 		(instances
 			(project "RF Frontend Breakout"
 				(path "/1be17eac-b555-466e-8bd3-43262e2e1b9c"
-					(reference "#PWR026")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -9482,7 +9466,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "899d51bf-7b77-4e70-93d0-594a39aa1396")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR04"
 			(at 41.91 189.23 0)
 			(hide yes)
 			(show_name no)
@@ -9542,7 +9526,7 @@
 		(instances
 			(project "RF Frontend Breakout"
 				(path "/1be17eac-b555-466e-8bd3-43262e2e1b9c"
-					(reference "#PWR01")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -9559,7 +9543,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8aaeae06-1b34-46ca-94b8-f068390f9d9f")
-		(property "Reference" "TP1"
+		(property "Reference" "TP2"
 			(at 55.626 160.02 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9619,7 +9603,7 @@
 		(instances
 			(project "RF Frontend Breakout"
 				(path "/1be17eac-b555-466e-8bd3-43262e2e1b9c"
-					(reference "TP1")
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -9636,7 +9620,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8e2f3ae2-100b-4de2-81de-93dfbb3b3ed7")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR013"
 			(at 80.01 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -9696,7 +9680,7 @@
 		(instances
 			(project "RF Frontend Breakout"
 				(path "/1be17eac-b555-466e-8bd3-43262e2e1b9c"
-					(reference "#PWR011")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -9795,7 +9779,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "914b52ae-ca7b-48c4-97ce-8a0e12772311")
-		(property "Reference" "C9"
+		(property "Reference" "C10"
 			(at 194.31 123.19 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9857,7 +9841,7 @@
 		(instances
 			(project "RF Frontend Breakout"
 				(path "/1be17eac-b555-466e-8bd3-43262e2e1b9c"
-					(reference "C9")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -9956,7 +9940,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "96860590-f1f7-440f-958b-fbdf3ae50852")
-		(property "Reference" "J6"
+		(property "Reference" "J1"
 			(at 14.478 97.282 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10018,7 +10002,7 @@
 		(instances
 			(project "RF Frontend Breakout"
 				(path "/1be17eac-b555-466e-8bd3-43262e2e1b9c"
-					(reference "J6")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -10035,7 +10019,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9a4ac09b-2bc9-432b-8e61-8385239fc06f")
-		(property "Reference" "C16"
+		(property "Reference" "C17"
 			(at 212.09 40.132 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10099,7 +10083,7 @@
 		(instances
 			(project "RF Frontend Breakout"
 				(path "/1be17eac-b555-466e-8bd3-43262e2e1b9c"
-					(reference "C16")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -10199,7 +10183,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9d458cd3-9acd-4b6a-96c0-a103e4b9616b")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR040"
 			(at 204.47 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -10260,7 +10244,7 @@
 		(instances
 			(project "RF Frontend Breakout"
 				(path "/1be17eac-b555-466e-8bd3-43262e2e1b9c"
-					(reference "#PWR039")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -10277,7 +10261,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9eb88e72-6811-41c3-bb61-a45ff65757ce")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR036"
 			(at 168.91 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -10338,7 +10322,7 @@
 		(instances
 			(project "RF Frontend Breakout"
 				(path "/1be17eac-b555-466e-8bd3-43262e2e1b9c"
-					(reference "#PWR035")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -10356,7 +10340,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9fecb0a8-c393-4da3-bb22-960691816f76")
-		(property "Reference" "C12"
+		(property "Reference" "C16"
 			(at 214.122 100.8379 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10420,7 +10404,7 @@
 		(instances
 			(project "RF Frontend Breakout"
 				(path "/1be17eac-b555-466e-8bd3-43262e2e1b9c"
-					(reference "C12")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -10520,7 +10504,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a751c395-dcad-4349-9b00-098a7fa49314")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR051"
 			(at 260.35 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -10580,7 +10564,7 @@
 		(instances
 			(project "RF Frontend Breakout"
 				(path "/1be17eac-b555-466e-8bd3-43262e2e1b9c"
-					(reference "#PWR054")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -10598,7 +10582,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ad007b1d-ae97-46c8-90a3-da3e624c1bb0")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR019"
 			(at 95.25 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -10658,7 +10642,7 @@
 		(instances
 			(project "RF Frontend Breakout"
 				(path "/1be17eac-b555-466e-8bd3-43262e2e1b9c"
-					(reference "#PWR017")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -10754,7 +10738,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b067c3a9-9f43-4665-bf99-9eda35ab3044")
-		(property "Reference" "C8"
+		(property "Reference" "C9"
 			(at 174.498 112.776 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10816,7 +10800,7 @@
 		(instances
 			(project "RF Frontend Breakout"
 				(path "/1be17eac-b555-466e-8bd3-43262e2e1b9c"
-					(reference "C8")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -10834,7 +10818,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b41c4c91-41f5-4012-9ecd-71e4dc7c0227")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR05"
 			(at 41.91 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -10894,7 +10878,7 @@
 		(instances
 			(project "RF Frontend Breakout"
 				(path "/1be17eac-b555-466e-8bd3-43262e2e1b9c"
-					(reference "#PWR02")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -10912,7 +10896,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b5289875-c0d8-4b03-af52-7eea61f83765")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR033"
 			(at 153.67 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -10973,7 +10957,7 @@
 		(instances
 			(project "RF Frontend Breakout"
 				(path "/1be17eac-b555-466e-8bd3-43262e2e1b9c"
-					(reference "#PWR032")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -10992,7 +10976,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b8392a99-57fd-448a-8390-c9a9b6a5a2f8")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR048"
 			(at 223.52 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -11052,7 +11036,7 @@
 		(instances
 			(project "RF Frontend Breakout"
 				(path "/1be17eac-b555-466e-8bd3-43262e2e1b9c"
-					(reference "#PWR047")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -11070,7 +11054,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ba56fafa-4d4d-43e0-b158-02d88e9ffa62")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR021"
 			(at 110.49 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -11130,7 +11114,7 @@
 		(instances
 			(project "RF Frontend Breakout"
 				(path "/1be17eac-b555-466e-8bd3-43262e2e1b9c"
-					(reference "#PWR018")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -11388,7 +11372,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bd32c2cc-828c-4acb-bfd1-ab75e1d3f998")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR017"
 			(at 95.25 17.78 0)
 			(hide yes)
 			(show_name no)
@@ -11448,7 +11432,7 @@
 		(instances
 			(project "RF Frontend Breakout"
 				(path "/1be17eac-b555-466e-8bd3-43262e2e1b9c"
-					(reference "#PWR015")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -11544,7 +11528,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c377bcb4-916e-4508-80f7-7c5e7dda9ff1")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR015"
 			(at 96.52 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -11605,7 +11589,7 @@
 		(instances
 			(project "RF Frontend Breakout"
 				(path "/1be17eac-b555-466e-8bd3-43262e2e1b9c"
-					(reference "#PWR013")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -11859,7 +11843,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cab2bdbc-5c40-4068-8b6c-f9b67cc64ae6")
-		(property "Reference" "C19"
+		(property "Reference" "C20"
 			(at 221.996 106.172 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11923,7 +11907,7 @@
 		(instances
 			(project "RF Frontend Breakout"
 				(path "/1be17eac-b555-466e-8bd3-43262e2e1b9c"
-					(reference "C19")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -11941,7 +11925,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cc7ca804-8c5c-4e57-a302-039a5aabdbe1")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR024"
 			(at 115.57 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -12001,7 +11985,7 @@
 		(instances
 			(project "RF Frontend Breakout"
 				(path "/1be17eac-b555-466e-8bd3-43262e2e1b9c"
-					(reference "#PWR023")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -12019,7 +12003,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ce8cfa84-c454-442f-81d4-bc0d31c894d0")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR047"
 			(at 218.44 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -12079,7 +12063,7 @@
 		(instances
 			(project "RF Frontend Breakout"
 				(path "/1be17eac-b555-466e-8bd3-43262e2e1b9c"
-					(reference "#PWR046")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -12096,7 +12080,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cea8e6a9-0637-4ec8-90ff-ae358cd4c6b8")
-		(property "Reference" "C1"
+		(property "Reference" "C2"
 			(at 71.12 92.7099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12160,7 +12144,7 @@
 		(instances
 			(project "RF Frontend Breakout"
 				(path "/1be17eac-b555-466e-8bd3-43262e2e1b9c"
-					(reference "C1")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -12178,7 +12162,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cf084dc5-d1d3-456b-bbfc-88ce289639f0")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR046"
 			(at 215.9 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -12238,7 +12222,7 @@
 		(instances
 			(project "RF Frontend Breakout"
 				(path "/1be17eac-b555-466e-8bd3-43262e2e1b9c"
-					(reference "#PWR045")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -12256,7 +12240,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d0d8665a-2068-4cf2-b8cd-dfa4f9db6410")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR016"
 			(at 93.98 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -12316,7 +12300,7 @@
 		(instances
 			(project "RF Frontend Breakout"
 				(path "/1be17eac-b555-466e-8bd3-43262e2e1b9c"
-					(reference "#PWR014")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -12416,7 +12400,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "da57e4a3-fd4f-463d-b798-a4cc49c8d192")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR028"
 			(at 137.16 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -12477,7 +12461,7 @@
 		(instances
 			(project "RF Frontend Breakout"
 				(path "/1be17eac-b555-466e-8bd3-43262e2e1b9c"
-					(reference "#PWR027")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -12496,7 +12480,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "db68da76-996a-47e5-8ed8-6184818799e6")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR041"
 			(at 203.2 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -12556,7 +12540,7 @@
 		(instances
 			(project "RF Frontend Breakout"
 				(path "/1be17eac-b555-466e-8bd3-43262e2e1b9c"
-					(reference "#PWR043")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -12573,7 +12557,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dfcc107f-c11f-48cd-8505-dfe35e6a18fe")
-		(property "Reference" "C11"
+		(property "Reference" "C12"
 			(at 195.834 22.606 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12635,7 +12619,7 @@
 		(instances
 			(project "RF Frontend Breakout"
 				(path "/1be17eac-b555-466e-8bd3-43262e2e1b9c"
-					(reference "C11")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -12653,7 +12637,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e0b33846-4a92-4390-895c-43baae1e27ff")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR03"
 			(at 38.1 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -12713,7 +12697,7 @@
 		(instances
 			(project "RF Frontend Breakout"
 				(path "/1be17eac-b555-466e-8bd3-43262e2e1b9c"
-					(reference "#PWR04")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -12732,7 +12716,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e13b79e8-e617-4afd-8158-4194fba497f5")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR050"
 			(at 247.65 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -12792,7 +12776,7 @@
 		(instances
 			(project "RF Frontend Breakout"
 				(path "/1be17eac-b555-466e-8bd3-43262e2e1b9c"
-					(reference "#PWR055")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -12892,7 +12876,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e70f5200-68da-488d-b184-88b22c3a7d91")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR010"
 			(at 74.93 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -12952,7 +12936,7 @@
 		(instances
 			(project "RF Frontend Breakout"
 				(path "/1be17eac-b555-466e-8bd3-43262e2e1b9c"
-					(reference "#PWR08")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -12969,7 +12953,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e8594b6a-0716-4d77-9c6b-712c745fa3e2")
-		(property "Reference" "C2"
+		(property "Reference" "C3"
 			(at 87.376 108.712 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13033,7 +13017,7 @@
 		(instances
 			(project "RF Frontend Breakout"
 				(path "/1be17eac-b555-466e-8bd3-43262e2e1b9c"
-					(reference "C2")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -13213,7 +13197,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ee04f729-02c3-4f34-ae7b-b87be94a59e0")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR018"
 			(at 95.25 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -13273,7 +13257,7 @@
 		(instances
 			(project "RF Frontend Breakout"
 				(path "/1be17eac-b555-466e-8bd3-43262e2e1b9c"
-					(reference "#PWR016")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -13291,7 +13275,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ef1a054a-470a-421d-92d6-cc0538ec71fb")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR031"
 			(at 154.94 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -13351,7 +13335,7 @@
 		(instances
 			(project "RF Frontend Breakout"
 				(path "/1be17eac-b555-466e-8bd3-43262e2e1b9c"
-					(reference "#PWR030")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -13369,7 +13353,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f13e5ed2-5598-437a-9a85-053c0f068717")
-		(property "Reference" "C7"
+		(property "Reference" "C8"
 			(at 147.066 37.084 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13431,7 +13415,7 @@
 		(instances
 			(project "RF Frontend Breakout"
 				(path "/1be17eac-b555-466e-8bd3-43262e2e1b9c"
-					(reference "C7")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -13450,7 +13434,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fa4fd5a6-1074-4153-ba1a-128d5172b3ab")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR052"
 			(at 260.35 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -13510,7 +13494,7 @@
 		(instances
 			(project "RF Frontend Breakout"
 				(path "/1be17eac-b555-466e-8bd3-43262e2e1b9c"
-					(reference "#PWR050")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -13606,7 +13590,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fc5005df-e814-437f-9c48-b5973b87d1a6")
-		(property "Reference" "C20"
+		(property "Reference" "C1"
 			(at 31.75 93.98 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13668,7 +13652,7 @@
 		(instances
 			(project "RF Frontend Breakout"
 				(path "/1be17eac-b555-466e-8bd3-43262e2e1b9c"
-					(reference "C20")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -13686,7 +13670,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fd844a9d-3935-4877-ba73-dfb0b0749727")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR011"
 			(at 74.93 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -13746,7 +13730,7 @@
 		(instances
 			(project "RF Frontend Breakout"
 				(path "/1be17eac-b555-466e-8bd3-43262e2e1b9c"
-					(reference "#PWR09")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -13763,7 +13747,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ffd97c58-7234-437a-b3b0-9a970a816891")
-		(property "Reference" "TP2"
+		(property "Reference" "TP1"
 			(at 61.976 40.894 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13823,7 +13807,7 @@
 		(instances
 			(project "RF Frontend Breakout"
 				(path "/1be17eac-b555-466e-8bd3-43262e2e1b9c"
-					(reference "TP2")
+					(reference "TP1")
 					(unit 1)
 				)
 			)

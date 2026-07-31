@@ -1,5 +1,6 @@
 (fp_lib_table
 	(version 7)
-	(lib (name "NCS2-62+") (type "KiCad") (uri "${KIPRJMOD}/NCS2-62+/NCS2-62+.pretty") (options "") (descr ""))
-	(lib (name "RF Frontend Footprints") (type "KiCad") (uri "${KIPRJMOD}/Components/RF Frontend Footprints.pretty") (options "") (descr ""))
+	(lib (name "NCS2-62+") (type "KiCad") (uri "${KIPRJMOD}/../Components/NCS2-62+/NCS2-62+.pretty") (options "") (descr ""))
+	(lib (name "RF Frontend Footprints") (type "KiCad") (uri "${KIPRJMOD}/../Components/RF Frontend Footprints.pretty") (options "") (descr ""))
+	(lib (name "Logo") (type "KiCad") (uri "/home/mcapoor/Documents/Github/BSE/PVDX-Comms-Hardware/Components/BSE DECAL/Logo.pretty") (options "") (descr ""))
 )
