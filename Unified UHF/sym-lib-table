@@ -1,0 +1,10 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "LHA-13LN+") (type "KiCad") (uri "${KIPRJMOD}/../Components/LHA-13LN+/LHA-13LN+.kicad_sym") (options "") (descr ""))
+	(lib (name "GRF5504") (type "KiCad") (uri "${KIPRJMOD}/../Components/GRF5504/GRF5504.kicad_sym") (options "") (descr ""))
+	(lib (name "RBP-440+") (type "KiCad") (uri "${KIPRJMOD}/../Components/RBP-440+/RBP-440+.kicad_sym") (options "") (descr ""))
+	(lib (name "QPC1022SR") (type "KiCad") (uri "${KIPRJMOD}/../Components/QPC1022SR/QPC1022SR.kicad_sym") (options "") (descr ""))
+	(lib (name "NCS2-62+") (type "KiCad") (uri "${KIPRJMOD}/../Components/NCS2-62+/NCS2-62+.kicad_sym") (options "") (descr ""))
+	(lib (name "MCP1603") (type "KiCad") (uri "${KIPRJMOD}/../Components/MCP1603/MCP1603.kicad_sym") (options "") (descr ""))
+	(lib (name "AT86RF215") (type "KiCad") (uri "${KIPRJMOD}/../Components/AT86RF215/AT86RF215.kicad_sym") (options "") (descr ""))
+)

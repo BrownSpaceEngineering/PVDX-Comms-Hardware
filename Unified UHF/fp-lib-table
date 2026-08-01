@@ -1,0 +1,5 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "RF Frontend Footprints") (type "KiCad") (uri "${KIPRJMOD}/../Components/RF Frontend Footprints.pretty") (options "") (descr ""))
+	(lib (name "MCP1603") (type "KiCad") (uri "${KIPRJMOD}/../Components/MCP1603/MCP1603.pretty") (options "") (descr ""))
+)
