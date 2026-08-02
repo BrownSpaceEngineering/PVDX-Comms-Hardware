@@ -3821,12 +3821,6 @@
 		(uuid "f1ba334c-6535-4c8a-acdf-477ec3157f14")
 	)
 	(junction
-		(at 130.81 172.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f1e8d10a-f98a-4457-833d-307c188c1042")
-	)
-	(junction
 		(at 78.74 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4028,16 +4022,6 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 157.48) (xy 167.64 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "15e77799-5018-4e40-90ae-713afd150976")
-	)
-	(wire
-		(pts
 			(xy 120.65 107.95) (xy 120.65 109.22)
 		)
 		(stroke
@@ -4055,16 +4039,6 @@
 			(type default)
 		)
 		(uuid "211827bb-fe44-480c-a373-053ba3bd2725")
-	)
-	(wire
-		(pts
-			(xy 130.81 152.4) (xy 130.81 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "24baf59b-f6a2-493a-a08c-1cab294d05bb")
 	)
 	(wire
 		(pts
@@ -4178,13 +4152,13 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 152.4) (xy 132.08 152.4)
+			(xy 133.35 152.4) (xy 132.08 152.4)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "63ad6239-bc37-46a1-a7a2-f1f97d98d6ed")
+		(uuid "5b0c1c1d-8e98-449b-ab3e-2f96d3ea57fb")
 	)
 	(wire
 		(pts
@@ -4408,16 +4382,6 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 172.72) (xy 149.86 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab534937-41d7-4f67-a9cb-d2dd890ff5a5")
-	)
-	(wire
-		(pts
 			(xy 238.76 80.01) (xy 238.76 83.82)
 		)
 		(stroke
@@ -4455,16 +4419,6 @@
 			(type default)
 		)
 		(uuid "b8e08d56-af92-411a-b5db-7d6c5c2d2a3b")
-	)
-	(wire
-		(pts
-			(xy 168.91 163.83) (xy 168.91 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb602838-badf-4a80-96db-b3f8deec0eb0")
 	)
 	(wire
 		(pts
@@ -5606,7 +5560,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 168.91 163.83 180)
+		(at 167.64 157.48 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5614,10 +5568,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "344614cc-4099-4605-a932-b07126919d71")
 		(property "Reference" "#PWR012"
-			(at 168.91 160.02 0)
+			(at 163.83 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5628,17 +5581,18 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 168.91 168.91 0)
+			(at 170.688 157.48 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 168.91 163.83 0)
+			(at 167.64 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5649,7 +5603,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 168.91 163.83 0)
+			(at 167.64 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5660,7 +5614,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 168.91 163.83 0)
+			(at 167.64 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6062,7 +6016,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 130.81 172.72 0)
+		(at 149.86 172.72 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6073,7 +6027,7 @@
 		(fields_autoplaced yes)
 		(uuid "50cef35d-a6a0-46aa-a3da-345617426b94")
 		(property "Reference" "#PWR09"
-			(at 130.81 179.07 0)
+			(at 149.86 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6084,7 +6038,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 130.81 177.8 0)
+			(at 149.86 177.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6094,7 +6048,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 130.81 172.72 0)
+			(at 149.86 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6105,7 +6059,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.81 172.72 0)
+			(at 149.86 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6116,7 +6070,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 130.81 172.72 0)
+			(at 149.86 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6837,6 +6791,85 @@
 			(project "Unified UHF"
 				(path "/3d225dcd-3852-49b1-b28c-4ba273d9b375"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 133.35 152.4 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7511fabe-ab9c-4d7e-9034-a52c1dfd0da6")
+		(property "Reference" "#PWR011"
+			(at 127 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 129.54 152.3999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 133.35 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 133.35 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bf85c7d2-e0df-49ee-a65c-ab88774c0296")
+		)
+		(instances
+			(project "Unified UHF"
+				(path "/3d225dcd-3852-49b1-b28c-4ba273d9b375"
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)

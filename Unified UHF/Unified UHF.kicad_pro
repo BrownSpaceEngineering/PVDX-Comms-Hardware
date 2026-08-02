@@ -260,16 +260,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      [
-        "no_connect_connected|304800|1231900|76b54afb-159f-45a6-81e6-4324c431e3e6|00000000-0000-0000-0000-000000000000|/3d225dcd-3852-49b1-b28c-4ba273d9b375/0631d646-3e18-4097-8cfc-c963676b8cf9|/3d225dcd-3852-49b1-b28c-4ba273d9b375/0631d646-3e18-4097-8cfc-c963676b8cf9|",
-        ""
-      ],
-      [
-        "pin_to_pin|1955800|825500|0757711e-766a-4ea3-8474-dc872f4dbde5|b399a382-29c1-4c2f-8df9-53f96b26b1d1|/3d225dcd-3852-49b1-b28c-4ba273d9b375|/3d225dcd-3852-49b1-b28c-4ba273d9b375|/3d225dcd-3852-49b1-b28c-4ba273d9b375",
-        ""
-      ]
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -599,18 +590,6 @@
         },
         {
           "group_by": true,
-          "label": "Exclude from Simulation",
-          "name": "${EXCLUDE_FROM_SIM}",
-          "show": true
-        },
-        {
-          "group_by": true,
-          "label": "Exclude from Position Files",
-          "name": "${EXCLUDE_FROM_POS_FILES}",
-          "show": true
-        },
-        {
-          "group_by": true,
           "label": "Footprint",
           "name": "Footprint",
           "show": true
@@ -658,7 +637,7 @@
     "meta": {
       "version": 1
     },
-    "page_layout_descr_file": "kicad-embed://simplified_sheet.kicad_wks",
+    "page_layout_descr_file": "",
     "plot_directory": "",
     "reuse_designators": true,
     "subpart_first_id": 65,
@@ -666,17 +645,17 @@
     "top_level_sheets": [
       {
         "filename": "Unified UHF.kicad_sch",
-        "name": "Root",
+        "name": "Unified UHF",
         "uuid": "3d225dcd-3852-49b1-b28c-4ba273d9b375"
       }
     ],
-    "used_designators": "X1,X3,#3V3\\-U1-2,#3V3\\-U22-24,U1-3,U44-45,TP1-15,TP171,R1-14,R26-27,R103,R125,L1-7,IC1-6,J1-6,FL1-4,D1-2,D17-18,C1-32,C102-103,C147,C151,C153,#PWR1-76,#FLG1-5",
+    "used_designators": "IC1-4,TP1-9,U1,#PWR11,FL1-2,C1-20,R1-10,J1-6,L1-6,H1-4",
     "variants": []
   },
   "sheets": [
     [
       "3d225dcd-3852-49b1-b28c-4ba273d9b375",
-      "Root"
+      "Unified UHF"
     ],
     [
       "0631d646-3e18-4097-8cfc-c963676b8cf9",
