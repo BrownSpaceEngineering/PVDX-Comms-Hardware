@@ -8080,7 +8080,7 @@
 				)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "2.2n"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "1f55036c-c223-4d71-bfa0-7f156b88d25d")
@@ -12385,7 +12385,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C15"
-			(at 3.088291 0.1 180)
+			(at 3.088291 0.1 0)
 			(layer "F.SilkS")
 			(uuid "05b40747-d458-405f-ad22-a29c67a383eb")
 			(effects
