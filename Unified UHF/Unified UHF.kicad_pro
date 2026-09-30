@@ -50,20 +50,20 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "border_display_style": 2,
+          "border_display_style": 1,
           "border_hatch_pitch": 0.5,
           "corner_radius": 0.0,
           "corner_smoothing": 0,
-          "fill_mode": 0,
+          "fill_mode": 1,
           "hatch_gap": 1.5,
           "hatch_orientation": 0.0,
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 2.0,
+          "min_clearance": 0.02,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
-          "pad_connection": 1,
+          "pad_connection": 2,
           "remove_islands": 0,
           "thermal_relief_gap": 0.5,
           "thermal_relief_spoke_width": 0.5
@@ -276,7 +276,19 @@
   "erc": {
     "erc_exclusions": [
       [
+        "multiple_net_names|850900|1854200|1387a12b-a584-49f8-84c7-2bbeb3889c99|fce35fc3-243c-4ee5-aa58-9dc632d24596|/1be17eac-b555-466e-8bd3-43262e2e1b9c|/1be17eac-b555-466e-8bd3-43262e2e1b9c|/1be17eac-b555-466e-8bd3-43262e2e1b9c",
+        ""
+      ],
+      [
         "multiple_net_names|850900|1854200|4218a2a5-06a0-4ac7-b408-34fdf25be5a1|fce35fc3-243c-4ee5-aa58-9dc632d24596|/1be17eac-b555-466e-8bd3-43262e2e1b9c|/1be17eac-b555-466e-8bd3-43262e2e1b9c|/1be17eac-b555-466e-8bd3-43262e2e1b9c",
+        ""
+      ],
+      [
+        "multiple_net_names|850900|1854200|fed6b636-eb50-4a6c-a9ed-5650a0f92cdd|fce35fc3-243c-4ee5-aa58-9dc632d24596|/1be17eac-b555-466e-8bd3-43262e2e1b9c|/1be17eac-b555-466e-8bd3-43262e2e1b9c|/1be17eac-b555-466e-8bd3-43262e2e1b9c",
+        ""
+      ],
+      [
+        "multiple_net_names|901700|1854200|a98688c0-5ea9-4b7d-99e4-1f0c0394e363|0afe06cc-1c41-4528-897c-b38a3361278c|/1be17eac-b555-466e-8bd3-43262e2e1b9c|/1be17eac-b555-466e-8bd3-43262e2e1b9c|/1be17eac-b555-466e-8bd3-43262e2e1b9c",
         ""
       ]
     ],
@@ -758,7 +770,7 @@
         "uuid": "1be17eac-b555-466e-8bd3-43262e2e1b9c"
       }
     ],
-    "used_designators": "",
+    "used_designators": "#PWR10,#PWR72-78",
     "variants": []
   },
   "sheets": [
