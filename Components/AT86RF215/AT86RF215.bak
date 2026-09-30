@@ -12,7 +12,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U3"
-			(at 9.144 9.398 0)
+			(at -2.286 12.7 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22,7 +22,7 @@
 			)
 		)
 		(property "Value" "AT86RF215-ZU"
-			(at 9.144 6.858 0)
+			(at -2.286 10.16 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -32,7 +32,7 @@
 			)
 		)
 		(property "Footprint" "QFN48_PQ_MCH"
-			(at 46.99 3.048 0)
+			(at 46.99 12.192 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -44,7 +44,7 @@
 			)
 		)
 		(property "Datasheet" "AT86RF215-ZU"
-			(at 47.498 5.842 0)
+			(at 47.498 14.986 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -98,59 +98,21 @@
 				)
 			)
 		)
-		(symbol "AT86RF215-ZU_0_1"
-			(polyline
-				(pts
-					(xy 7.62 5.08) (xy 7.62 -66.04)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 7.62 -66.04) (xy 38.1 -66.04)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 38.1 5.08) (xy 7.62 5.08)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 38.1 -66.04) (xy 38.1 5.08)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
 		(symbol "AT86RF215-ZU_1_1"
+			(rectangle
+				(start 7.62 15.24)
+				(end 38.1 -66.04)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type color)
+					(color 255 255 194 1)
+				)
+			)
 			(pin bidirectional line
-				(at 41.91 -44.45 180)
+				(at 41.91 -38.1 180)
 				(length 3.81)
 				(name "FEA24"
 					(effects
@@ -168,7 +130,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 41.91 -46.99 180)
+				(at 41.91 -40.64 180)
 				(length 3.81)
 				(name "FEB24"
 					(effects
@@ -204,7 +166,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 41.91 -36.83 180)
+				(at 41.91 -31.75 180)
 				(length 3.81)
 				(name "RFP24"
 					(effects
@@ -222,7 +184,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 41.91 -39.37 180)
+				(at 41.91 -34.29 180)
 				(length 3.81)
 				(name "RFN24"
 					(effects
@@ -232,6 +194,44 @@
 					)
 				)
 				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 20.32 -69.85 90)
+				(length 3.81)
+				(hide yes)
+				(name "AVSS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 20.32 -69.85 90)
+				(length 3.81)
+				(hide yes)
+				(name "AVSS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -268,6 +268,25 @@
 					)
 				)
 				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 20.32 -69.85 90)
+				(length 3.81)
+				(hide yes)
+				(name "AVSS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -330,7 +349,7 @@
 				)
 			)
 			(pin power_out line
-				(at 41.91 -7.62 180)
+				(at 41.91 -49.53 180)
 				(length 3.81)
 				(name "AVDD0"
 					(effects
@@ -348,7 +367,7 @@
 				)
 			)
 			(pin power_in line
-				(at 25.4 8.89 270)
+				(at 41.91 -1.27 180)
 				(length 3.81)
 				(name "EVDD"
 					(effects
@@ -358,6 +377,25 @@
 					)
 				)
 				(number "15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 20.32 -69.85 90)
+				(length 3.81)
+				(hide yes)
+				(name "AVSS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "16"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -383,7 +421,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin power_in line
 				(at 3.81 -58.42 0)
 				(length 3.81)
 				(name "XTAL2"
@@ -394,6 +432,25 @@
 					)
 				)
 				(number "18"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 20.32 -69.85 90)
+				(length 3.81)
+				(hide yes)
+				(name "AVSS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "19"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -419,6 +476,24 @@
 					)
 				)
 			)
+			(pin power_in line
+				(at 13.97 19.05 270)
+				(length 3.81)
+				(name "DEVDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "21"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin output line
 				(at 3.81 -63.5 0)
 				(length 3.81)
@@ -430,6 +505,44 @@
 					)
 				)
 				(number "22"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 25.4 -69.85 90)
+				(length 3.81)
+				(hide yes)
+				(name "DVSS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "23"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 25.4 -69.85 90)
+				(length 3.81)
+				(hide yes)
+				(name "DVSS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "24"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -509,6 +622,24 @@
 					)
 				)
 			)
+			(pin power_in line
+				(at 31.75 19.05 270)
+				(length 3.81)
+				(name "DEVDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "29"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin output line
 				(at 3.81 -43.18 0)
 				(length 3.81)
@@ -538,6 +669,25 @@
 					)
 				)
 				(number "31"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 25.4 -69.85 90)
+				(length 3.81)
+				(hide yes)
+				(name "DVSS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "32"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -618,7 +768,7 @@
 				)
 			)
 			(pin power_out line
-				(at 41.91 -63.5 180)
+				(at 41.91 -57.15 180)
 				(length 3.81)
 				(name "DVDD"
 					(effects
@@ -636,7 +786,26 @@
 				)
 			)
 			(pin power_in line
-				(at 20.32 8.89 270)
+				(at 25.4 -69.85 90)
+				(length 3.81)
+				(hide yes)
+				(name "DVSS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "38"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 22.86 19.05 270)
 				(length 3.81)
 				(name "DEVDD"
 					(effects
@@ -743,8 +912,45 @@
 					)
 				)
 			)
+			(pin power_in line
+				(at 20.32 -69.85 90)
+				(length 3.81)
+				(hide yes)
+				(name "AVSS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "45"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin power_out line
-				(at 41.91 -53.34 180)
+				(at 41.91 5.08 180)
+				(length 3.81)
+				(name "EVDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "46"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 41.91 -52.07 180)
 				(length 3.81)
 				(name "AVDD1"
 					(effects
@@ -754,6 +960,43 @@
 					)
 				)
 				(number "47"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 20.32 -69.85 90)
+				(length 3.81)
+				(hide yes)
+				(name "AVSS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "48"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 30.48 -69.85 90)
+				(length 3.81)
+				(name "EP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "49"
 					(effects
 						(font
 							(size 1.27 1.27)
