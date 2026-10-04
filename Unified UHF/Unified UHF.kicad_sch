@@ -5839,6 +5839,12 @@
 		(uuid "6ce89e8d-42c9-4acf-bb3f-26787d2b77ee")
 	)
 	(junction
+		(at 203.2 250.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6fe4c12e-b7e3-4a0d-a2fc-695030a29af3")
+	)
+	(junction
 		(at 284.48 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5879,6 +5885,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "92601776-1013-41a1-8875-d7d313c27038")
+	)
+	(junction
+		(at 203.2 247.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "94bba16c-f2fa-4f08-ab4f-93a3e3d9a07b")
 	)
 	(junction
 		(at 201.93 134.62)
@@ -6186,6 +6198,16 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 250.19) (xy 203.2 251.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cb92bad-f201-47f7-9774-a0370f8f60a8")
+	)
+	(wire
+		(pts
 			(xy 96.52 95.25) (xy 110.49 95.25)
 		)
 		(stroke
@@ -6203,6 +6225,16 @@
 			(type default)
 		)
 		(uuid "0e1a44fc-53e5-4002-9efc-28ef84747fbc")
+	)
+	(wire
+		(pts
+			(xy 203.2 250.19) (xy 210.82 250.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15872af1-c06b-4f92-83d3-674237549163")
 	)
 	(wire
 		(pts
@@ -6526,6 +6558,16 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 250.19) (xy 210.82 251.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4125d2b8-35c2-4fed-8a41-03508a635de6")
+	)
+	(wire
+		(pts
 			(xy 44.45 179.07) (xy 44.45 180.34)
 		)
 		(stroke
@@ -6796,6 +6838,16 @@
 	)
 	(wire
 		(pts
+			(xy 195.58 247.65) (xy 195.58 251.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ed7f5b7-94d0-46b6-bd78-3b0a14ad03ef")
+	)
+	(wire
+		(pts
 			(xy 72.39 250.19) (xy 72.39 248.92)
 		)
 		(stroke
@@ -6913,6 +6965,16 @@
 			(type default)
 		)
 		(uuid "700fe6cc-0410-4233-b085-8bb3e595eed8")
+	)
+	(wire
+		(pts
+			(xy 203.2 247.65) (xy 218.44 247.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71a348ab-1c42-4fd6-9e87-bd4eda405fca")
 	)
 	(wire
 		(pts
@@ -7616,6 +7678,16 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 247.65) (xy 203.2 250.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3a1f420-f644-4411-a470-92153b3512aa")
+	)
+	(wire
+		(pts
 			(xy 340.36 137.16) (xy 335.28 137.16)
 		)
 		(stroke
@@ -7736,6 +7808,16 @@
 	)
 	(wire
 		(pts
+			(xy 195.58 247.65) (xy 203.2 247.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e79e9e8b-d951-447a-b00a-68b3d2c66adb")
+	)
+	(wire
+		(pts
 			(xy 372.11 154.94) (xy 372.11 195.58)
 		)
 		(stroke
@@ -7753,6 +7835,16 @@
 			(type default)
 		)
 		(uuid "eaab3b56-f6a2-4f81-ab0c-39c192d1dd68")
+	)
+	(wire
+		(pts
+			(xy 218.44 247.65) (xy 218.44 251.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb139b20-febd-46b7-834a-01b1d28c0be4")
 	)
 	(wire
 		(pts
@@ -9303,7 +9395,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 252.73 191.77 0)
 			(hide yes)
 			(show_name no)
@@ -10519,7 +10611,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 369.57 195.58 0)
 			(hide yes)
 			(show_name no)
@@ -10958,6 +11050,84 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 203.2 251.46 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3bd1bb36-31d1-4d74-b3bf-db4e1f235c41")
+		(property "Reference" "#PWR081"
+			(at 203.2 257.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 203.2 255.5931 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 203.2 251.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 251.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 203.2 251.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "94dc5d46-41be-42df-bab6-5916da9b542a")
+		)
+		(instances
+			(project "Unified UHF"
+				(path "/1be17eac-b555-466e-8bd3-43262e2e1b9c"
+					(reference "#PWR081")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 355.6 147.32 0)
 		(unit 1)
 		(body_style 1)
@@ -11147,7 +11317,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 196.85 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -11783,7 +11953,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 255.27 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -12592,7 +12762,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 154.94 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -12669,7 +12839,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 217.17 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -12981,7 +13151,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 364.49 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -14489,7 +14659,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "AT86RF215:QFN48_PQ_MCH"
+		(property "Footprint" "RF Frontend Footprints:AT86Footprint"
 			(at 111.76 112.522 0)
 			(hide yes)
 			(show_name no)
@@ -15104,7 +15274,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 182.88 191.77 0)
 			(hide yes)
 			(show_name no)
@@ -15329,7 +15499,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "100n"
 			(at 321.31 161.29 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15712,7 +15882,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 250.19 275.59 0)
+		(at 210.82 247.65 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15720,10 +15890,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9cc87ab3-f9d3-46bd-a7bf-1d934e2e8fb2")
 		(property "Reference" "H3"
-			(at 252.73 274.3199 0)
+			(at 209.55 244.348 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15734,7 +15903,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 252.73 276.8599 0)
+			(at 215.9 237.744 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15744,8 +15913,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.5mm_Pad"
-			(at 250.19 275.59 0)
+		(property "Footprint" "RF Frontend Footprints:MountingHole_3.4mm_Pad(edited from 3.5mm hole)"
+			(at 210.82 247.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15756,7 +15925,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 250.19 275.59 0)
+			(at 210.82 247.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15767,7 +15936,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 250.19 275.59 0)
+			(at 210.82 247.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16138,7 +16307,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 62.23 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -16215,7 +16384,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 60.96 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -16255,6 +16424,84 @@
 			(project "Unified UHF"
 				(path "/1be17eac-b555-466e-8bd3-43262e2e1b9c"
 					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 210.82 251.46 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a69ef7a7-28a3-4036-ac36-68bbc82fbcc8")
+		(property "Reference" "#PWR082"
+			(at 210.82 257.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 210.82 255.5931 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 210.82 251.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 251.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 210.82 251.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "408cb8b5-47b7-4c1b-ac91-fc5ca4f75140")
+		)
+		(instances
+			(project "Unified UHF"
+				(path "/1be17eac-b555-466e-8bd3-43262e2e1b9c"
+					(reference "#PWR082")
 					(unit 1)
 				)
 			)
@@ -16527,7 +16774,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 113.03 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -16673,7 +16920,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "100n"
 			(at 301.498 150.876 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18319,7 +18566,8 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 198.12 276.86 0)
+		(at 195.58 247.65 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18327,10 +18575,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c91eaaf7-82c4-49db-8503-bf9f98e8af1d")
 		(property "Reference" "H1"
-			(at 200.66 275.5899 0)
+			(at 197.104 244.602 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18341,7 +18588,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 200.66 278.1299 0)
+			(at 196.85 237.49 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18351,8 +18598,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.5mm_Pad"
-			(at 198.12 276.86 0)
+		(property "Footprint" "RF Frontend Footprints:MountingHole_3.4mm_Pad(edited from 3.5mm hole)"
+			(at 195.58 247.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18363,7 +18610,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 198.12 276.86 0)
+			(at 195.58 247.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18374,7 +18621,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 198.12 276.86 0)
+			(at 195.58 247.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18506,7 +18753,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 401.32 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -18742,7 +18989,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 123.19 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -19192,6 +19439,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 195.58 251.46 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d1192218-ac96-405c-b1ac-1febae911282")
+		(property "Reference" "#PWR080"
+			(at 195.58 257.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 195.58 255.5931 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 195.58 251.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 251.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 195.58 251.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "942e4f6a-b998-4d7d-a61f-c557c48cd6c5")
+		)
+		(instances
+			(project "Unified UHF"
+				(path "/1be17eac-b555-466e-8bd3-43262e2e1b9c"
+					(reference "#PWR080")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 222.25 118.11 0)
 		(unit 1)
@@ -19273,41 +19598,40 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 224.79 276.86 0)
+		(lib_id "power:GND")
+		(at 218.44 251.46 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d3ea7e2e-616d-41e4-ab41-56854bc04fa6")
-		(property "Reference" "H2"
-			(at 227.33 275.5899 0)
+		(uuid "d3057a2d-b05e-4de7-9498-4d2079100ae5")
+		(property "Reference" "#PWR083"
+			(at 218.44 257.81 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "MountingHole"
-			(at 227.33 278.1299 0)
+		(property "Value" "GND"
+			(at 218.44 255.5931 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.5mm_Pad"
-			(at 224.79 276.86 0)
+		(property "Footprint" ""
+			(at 218.44 251.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19318,7 +19642,85 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 224.79 276.86 0)
+			(at 218.44 251.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 218.44 251.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "185fe12a-fa03-4897-a1fd-5ea9d02b6fff")
+		)
+		(instances
+			(project "Unified UHF"
+				(path "/1be17eac-b555-466e-8bd3-43262e2e1b9c"
+					(reference "#PWR083")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 203.2 247.65 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d3ea7e2e-616d-41e4-ab41-56854bc04fa6")
+		(property "Reference" "H2"
+			(at 201.93 244.602 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 199.39 237.744 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "RF Frontend Footprints:MountingHole_3.4mm_Pad(edited from 3.5mm hole)"
+			(at 203.2 247.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 247.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19329,7 +19731,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 224.79 276.86 0)
+			(at 203.2 247.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19768,7 +20170,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "100n"
 			(at 322.834 55.626 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20768,7 +21170,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 275.59 276.86 0)
+		(at 218.44 247.65 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20776,10 +21178,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "eeaffafa-dfdb-466a-af67-c2a83cd9dd13")
 		(property "Reference" "H4"
-			(at 278.13 275.5899 0)
+			(at 217.17 244.094 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20790,7 +21191,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 278.13 278.1299 0)
+			(at 231.902 237.744 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20800,8 +21201,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.5mm_Pad"
-			(at 275.59 276.86 0)
+		(property "Footprint" "RF Frontend Footprints:MountingHole_3.4mm_Pad(edited from 3.5mm hole)"
+			(at 218.44 247.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20812,7 +21213,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 275.59 276.86 0)
+			(at 218.44 247.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20823,7 +21224,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 275.59 276.86 0)
+			(at 218.44 247.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21511,7 +21912,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 190.5 80.01 0)
 			(hide yes)
 			(show_name no)
