@@ -3157,9 +3157,13 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Mechanical:MountingHole"
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 1.016)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom no)
@@ -3167,7 +3171,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "H"
-				(at 0 5.08 0)
+				(at 0 6.35 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -3176,8 +3180,8 @@
 					)
 				)
 			)
-			(property "Value" "MountingHole"
-				(at 0 3.175 0)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -3208,7 +3212,7 @@
 					)
 				)
 			)
-			(property "Description" "Mounting Hole without connection"
+			(property "Description" "Mounting Hole with connection"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3230,7 +3234,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "MountingHole*"
+			(property "ki_fp_filters" "MountingHole*Pad*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3241,9 +3245,9 @@
 					)
 				)
 			)
-			(symbol "MountingHole_0_1"
+			(symbol "MountingHole_Pad_0_1"
 				(circle
-					(center 0 0)
+					(center 0 1.27)
 					(radius 1.27)
 					(stroke
 						(width 1.27)
@@ -3251,6 +3255,26 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
 			)
@@ -5596,7 +5620,7 @@
 	)
 	(text "Voltage divider to control EN \nat 1.8V whenever power is supplied "
 		(exclude_from_sim no)
-		(at 225.044 120.142 0)
+		(at 217.932 111.506 0)
 		(effects
 			(font
 				(size 0.762 0.762)
@@ -5713,34 +5737,10 @@
 		(uuid "1d45cc2b-2c01-4be9-9c1f-4294476f0f31")
 	)
 	(junction
-		(at 247.65 191.77)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2222798b-9727-47aa-a026-51fbdfe8b710")
-	)
-	(junction
 		(at 118.11 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2478aa5a-ae7f-47e3-87b7-8f0100a3065c")
-	)
-	(junction
-		(at 185.42 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2a7b4bdf-44e5-4b44-a510-267cd82aa606")
-	)
-	(junction
-		(at 217.17 121.92)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2d4a55f7-fd1d-441f-b4df-760e0877b0b3")
-	)
-	(junction
-		(at 396.24 137.16)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "30cea0d1-d2c3-46de-a06d-9045be3e34d1")
 	)
 	(junction
 		(at 307.34 102.87)
@@ -5759,6 +5759,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "390714fe-86d4-459d-8733-0ba61f5c8395")
+	)
+	(junction
+		(at 63.5 267.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "39569ebc-3e00-4f3f-8b80-043721c12865")
 	)
 	(junction
 		(at 317.5 184.15)
@@ -5839,12 +5845,6 @@
 		(uuid "6ce89e8d-42c9-4acf-bb3f-26787d2b77ee")
 	)
 	(junction
-		(at 203.2 250.19)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6fe4c12e-b7e3-4a0d-a2fc-695030a29af3")
-	)
-	(junction
 		(at 284.48 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5863,10 +5863,22 @@
 		(uuid "80672f7d-520f-4668-9b36-fe751ade1505")
 	)
 	(junction
-		(at 330.2 121.92)
+		(at 63.5 246.38)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "88f19b60-29eb-4533-b1aa-c86570b4622c")
+		(uuid "830b0056-e317-499a-b3b8-ef72603ba8bd")
+	)
+	(junction
+		(at 186.69 250.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "88c7ebea-746a-491c-a6cc-758b74839214")
+	)
+	(junction
+		(at 222.25 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8e8616d8-87df-4394-adb8-c37d2fc936fc")
 	)
 	(junction
 		(at 278.13 80.01)
@@ -5887,19 +5899,13 @@
 		(uuid "92601776-1013-41a1-8875-d7d313c27038")
 	)
 	(junction
-		(at 203.2 247.65)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "94bba16c-f2fa-4f08-ab4f-93a3e3d9a07b")
-	)
-	(junction
 		(at 201.93 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "96148321-4169-477b-99e9-4bf9de16cdea")
 	)
 	(junction
-		(at 222.25 121.92)
+		(at 232.41 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9927eca5-3083-454c-b447-58d210a3905a")
@@ -5917,18 +5923,6 @@
 		(uuid "9d35515d-0423-4393-9fde-09b629ba9b6d")
 	)
 	(junction
-		(at 355.6 139.7)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a115cba4-727d-4cce-834a-692ea1168c35")
-	)
-	(junction
-		(at 149.86 137.16)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a11fc7e6-9864-4f3f-b9d8-06ac88792017")
-	)
-	(junction
 		(at 278.13 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5941,22 +5935,10 @@
 		(uuid "a89ab86f-8cb7-4879-aab8-92befac1fba9")
 	)
 	(junction
-		(at 250.19 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b0daac2d-4bc5-4821-8e61-a0714a1adfd9")
-	)
-	(junction
 		(at 57.15 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b1b7e386-6650-4243-938a-ba35ef3b8e8d")
-	)
-	(junction
-		(at 187.96 191.77)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b569f288-769f-46b0-b1c4-1319bc9475a6")
 	)
 	(junction
 		(at 325.12 85.09)
@@ -5975,12 +5957,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ba7d7290-babb-417f-8b35-89cfb3a9e5e0")
-	)
-	(junction
-		(at 196.85 144.78)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bb1b7a42-a3b2-46a1-8d90-250d2261e8b3")
 	)
 	(junction
 		(at 307.34 154.94)
@@ -6037,10 +6013,10 @@
 		(uuid "d689e48d-179a-46d7-953c-49de73e8b907")
 	)
 	(junction
-		(at 345.44 114.3)
+		(at 356.87 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d90d2951-7a4f-48e9-a0ca-e5c6759c3482")
+		(uuid "d8e317f5-82c0-4389-80c4-2a9e53a3c0e6")
 	)
 	(junction
 		(at 287.02 212.09)
@@ -6059,18 +6035,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "de0b1761-dd91-4c1a-995b-1ac2ba4cdca1")
-	)
-	(junction
-		(at 364.49 195.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e02c2b8d-d4ea-4c6a-8e2a-3d9747416e62")
-	)
-	(junction
-		(at 359.41 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e6eaf91d-d9da-4e25-a6ec-c9bb52d90471")
 	)
 	(junction
 		(at 292.1 161.29)
@@ -6158,16 +6122,6 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 137.16) (xy 146.05 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "011d6dd5-fbfa-4b94-a8c0-70500b389ac4")
-	)
-	(wire
-		(pts
 			(xy 90.17 185.42) (xy 90.17 189.23)
 		)
 		(stroke
@@ -6198,16 +6152,6 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 250.19) (xy 203.2 251.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0cb92bad-f201-47f7-9774-a0370f8f60a8")
-	)
-	(wire
-		(pts
 			(xy 96.52 95.25) (xy 110.49 95.25)
 		)
 		(stroke
@@ -6225,16 +6169,6 @@
 			(type default)
 		)
 		(uuid "0e1a44fc-53e5-4002-9efc-28ef84747fbc")
-	)
-	(wire
-		(pts
-			(xy 203.2 250.19) (xy 210.82 250.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "15872af1-c06b-4f92-83d3-674237549163")
 	)
 	(wire
 		(pts
@@ -6265,36 +6199,6 @@
 			(type default)
 		)
 		(uuid "1ca8da19-10e0-4ddc-ac6d-6cf11fa8d7b9")
-	)
-	(wire
-		(pts
-			(xy 345.44 113.03) (xy 345.44 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ce6ded7-fed7-41d6-8717-53d7811dd5c8")
-	)
-	(wire
-		(pts
-			(xy 237.49 191.77) (xy 247.65 191.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d563faa-b815-4758-9b03-885a18857293")
-	)
-	(wire
-		(pts
-			(xy 330.2 129.54) (xy 330.2 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f348a4f-319b-4267-8406-e70cf1cc10b9")
 	)
 	(wire
 		(pts
@@ -6418,7 +6322,7 @@
 	)
 	(wire
 		(pts
-			(xy 345.44 114.3) (xy 345.44 134.62)
+			(xy 345.44 113.03) (xy 345.44 134.62)
 		)
 		(stroke
 			(width 0)
@@ -6508,7 +6412,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 191.77) (xy 255.27 191.77)
+			(xy 237.49 191.77) (xy 255.27 191.77)
 		)
 		(stroke
 			(width 0)
@@ -6558,16 +6462,6 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 250.19) (xy 210.82 251.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4125d2b8-35c2-4fed-8a41-03508a635de6")
-	)
-	(wire
-		(pts
 			(xy 44.45 179.07) (xy 44.45 180.34)
 		)
 		(stroke
@@ -6595,16 +6489,6 @@
 			(type default)
 		)
 		(uuid "4454317e-cc70-4d18-954a-d1de38b4cfcb")
-	)
-	(wire
-		(pts
-			(xy 387.35 137.16) (xy 396.24 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "44c332e5-d163-41b6-a93b-d7612aa0f4a9")
 	)
 	(wire
 		(pts
@@ -6718,16 +6602,6 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 121.92) (xy 217.17 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "51c3dd54-6e3d-459e-88f2-83efc71b0bcc")
-	)
-	(wire
-		(pts
 			(xy 96.52 95.25) (xy 96.52 96.52)
 		)
 		(stroke
@@ -6778,16 +6652,6 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 80.01) (xy 250.19 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "59c44525-3f35-4fc9-8dc3-d854afe8f9b9")
-	)
-	(wire
-		(pts
 			(xy 87.63 95.25) (xy 96.52 95.25)
 		)
 		(stroke
@@ -6828,23 +6692,13 @@
 	)
 	(wire
 		(pts
-			(xy 359.41 80.01) (xy 372.11 80.01)
+			(xy 342.9 80.01) (xy 372.11 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "5e385e3e-a8a9-4942-a863-844595e29440")
-	)
-	(wire
-		(pts
-			(xy 195.58 247.65) (xy 195.58 251.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ed7f5b7-94d0-46b6-bd78-3b0a14ad03ef")
 	)
 	(wire
 		(pts
@@ -6878,7 +6732,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 80.01) (xy 201.93 80.01)
+			(xy 180.34 80.01) (xy 201.93 80.01)
 		)
 		(stroke
 			(width 0)
@@ -6905,6 +6759,16 @@
 			(type default)
 		)
 		(uuid "651b75f8-6b05-4e9c-bcfc-21e5b7fd4a0d")
+	)
+	(wire
+		(pts
+			(xy 232.41 121.92) (xy 335.28 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6564cf8d-0ea5-4e40-95b8-70caabac437a")
 	)
 	(wire
 		(pts
@@ -6968,16 +6832,6 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 247.65) (xy 218.44 247.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "71a348ab-1c42-4fd6-9e87-bd4eda405fca")
-	)
-	(wire
-		(pts
 			(xy 195.58 134.62) (xy 201.93 134.62)
 		)
 		(stroke
@@ -7008,16 +6862,6 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 191.77) (xy 196.85 191.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7545db25-95cd-495d-8e8b-f6fd0637c121")
-	)
-	(wire
-		(pts
 			(xy 72.39 271.78) (xy 72.39 270.51)
 		)
 		(stroke
@@ -7038,16 +6882,6 @@
 	)
 	(wire
 		(pts
-			(xy 355.6 139.7) (xy 356.87 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ddf43bf-6da4-41cf-b9b3-705097d2c7b5")
-	)
-	(wire
-		(pts
 			(xy 180.34 154.94) (xy 180.34 191.77)
 		)
 		(stroke
@@ -7058,16 +6892,6 @@
 	)
 	(wire
 		(pts
-			(xy 330.2 114.3) (xy 345.44 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ed22a69-1b79-4b32-8396-0ee6e4f69eaa")
-	)
-	(wire
-		(pts
 			(xy 44.45 132.08) (xy 44.45 116.84)
 		)
 		(stroke
@@ -7075,16 +6899,6 @@
 			(type default)
 		)
 		(uuid "7f98b9a7-acd3-4dd8-89a7-80a8fa209788")
-	)
-	(wire
-		(pts
-			(xy 342.9 80.01) (xy 359.41 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "83049acd-108f-4ac6-a2f4-13926d046458")
 	)
 	(wire
 		(pts
@@ -7108,16 +6922,6 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 80.01) (xy 185.42 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8644cf2e-5b64-45f3-997d-b732c188eb33")
-	)
-	(wire
-		(pts
 			(xy 398.78 139.7) (xy 398.78 142.24)
 		)
 		(stroke
@@ -7128,7 +6932,7 @@
 	)
 	(wire
 		(pts
-			(xy 372.11 195.58) (xy 364.49 195.58)
+			(xy 347.98 195.58) (xy 372.11 195.58)
 		)
 		(stroke
 			(width 0)
@@ -7208,6 +7012,16 @@
 	)
 	(wire
 		(pts
+			(xy 232.41 121.92) (xy 222.25 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fa58fbf-c36d-4f11-9c48-dfb24201064d")
+	)
+	(wire
+		(pts
 			(xy 287.02 212.09) (xy 289.56 212.09)
 		)
 		(stroke
@@ -7278,7 +7092,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 191.77) (xy 187.96 191.77)
+			(xy 180.34 191.77) (xy 196.85 191.77)
 		)
 		(stroke
 			(width 0)
@@ -7368,16 +7182,6 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 156.21) (xy 196.85 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "af07f7f7-8d6a-40d4-b221-1d9f14ecdba1")
-	)
-	(wire
-		(pts
 			(xy 67.31 179.07) (xy 68.58 179.07)
 		)
 		(stroke
@@ -7435,16 +7239,6 @@
 			(type default)
 		)
 		(uuid "b8bb4256-ce63-4e6e-948d-8b5cad1c3888")
-	)
-	(wire
-		(pts
-			(xy 222.25 121.92) (xy 232.41 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b8d8127e-85e2-4019-a8f0-7496ecbdbbea")
 	)
 	(wire
 		(pts
@@ -7588,7 +7382,17 @@
 	)
 	(wire
 		(pts
-			(xy 398.78 137.16) (xy 396.24 137.16)
+			(xy 222.25 121.92) (xy 217.17 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb8aac78-0bae-4f29-82f7-96c8150ecf6f")
+	)
+	(wire
+		(pts
+			(xy 387.35 137.16) (xy 398.78 137.16)
 		)
 		(stroke
 			(width 0)
@@ -7618,7 +7422,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 144.78) (xy 196.85 139.7)
+			(xy 196.85 139.7) (xy 196.85 156.21)
 		)
 		(stroke
 			(width 0)
@@ -7678,16 +7482,6 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 247.65) (xy 203.2 250.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3a1f420-f644-4411-a470-92153b3512aa")
-	)
-	(wire
-		(pts
 			(xy 340.36 137.16) (xy 335.28 137.16)
 		)
 		(stroke
@@ -7708,7 +7502,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 137.16) (xy 165.1 137.16)
+			(xy 146.05 137.16) (xy 165.1 137.16)
 		)
 		(stroke
 			(width 0)
@@ -7718,7 +7512,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 139.7) (xy 355.6 139.7)
+			(xy 220.98 139.7) (xy 356.87 139.7)
 		)
 		(stroke
 			(width 0)
@@ -7778,16 +7572,6 @@
 	)
 	(wire
 		(pts
-			(xy 347.98 195.58) (xy 364.49 195.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "deaf889d-bc4d-425e-882e-45b6d91961c1")
-	)
-	(wire
-		(pts
 			(xy 317.5 154.94) (xy 307.34 154.94)
 		)
 		(stroke
@@ -7808,16 +7592,6 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 247.65) (xy 203.2 247.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e79e9e8b-d951-447a-b00a-68b3d2c66adb")
-	)
-	(wire
-		(pts
 			(xy 372.11 154.94) (xy 372.11 195.58)
 		)
 		(stroke
@@ -7835,16 +7609,6 @@
 			(type default)
 		)
 		(uuid "eaab3b56-f6a2-4f81-ab0c-39c192d1dd68")
-	)
-	(wire
-		(pts
-			(xy 218.44 247.65) (xy 218.44 251.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb139b20-febd-46b7-834a-01b1d28c0be4")
 	)
 	(wire
 		(pts
@@ -7888,16 +7652,6 @@
 	)
 	(wire
 		(pts
-			(xy 330.2 121.92) (xy 335.28 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f2f91815-3a85-450b-b32d-97bd4855bac3")
-	)
-	(wire
-		(pts
 			(xy 44.45 162.56) (xy 44.45 163.83)
 		)
 		(stroke
@@ -7928,7 +7682,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 80.01) (xy 262.89 80.01)
+			(xy 242.57 80.01) (xy 262.89 80.01)
 		)
 		(stroke
 			(width 0)
@@ -7960,7 +7714,7 @@
 		(cells
 			(table_cell "FEA09"
 				(exclude_from_sim no)
-				(at 252.73 120.015 0)
+				(at 421.64 93.345 0)
 				(size 10.16 3.175)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -7979,7 +7733,7 @@
 			)
 			(table_cell "CTRL (IC1, IC2)"
 				(exclude_from_sim no)
-				(at 262.89 120.015 0)
+				(at 431.8 93.345 0)
 				(size 17.78 3.175)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -7998,7 +7752,7 @@
 			)
 			(table_cell "RF Path"
 				(exclude_from_sim no)
-				(at 280.67 120.015 0)
+				(at 449.58 93.345 0)
 				(size 10.16 3.175)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -8017,7 +7771,7 @@
 			)
 			(table_cell "Mode"
 				(exclude_from_sim no)
-				(at 290.83 120.015 0)
+				(at 459.74 93.345 0)
 				(size 8.89 3.175)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -8036,7 +7790,7 @@
 			)
 			(table_cell "0"
 				(exclude_from_sim no)
-				(at 252.73 123.19 0)
+				(at 421.64 96.52 0)
 				(size 10.16 3.175)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -8053,7 +7807,7 @@
 			)
 			(table_cell "LOW"
 				(exclude_from_sim no)
-				(at 262.89 123.19 0)
+				(at 431.8 96.52 0)
 				(size 17.78 3.175)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -8070,7 +7824,7 @@
 			)
 			(table_cell "RF2"
 				(exclude_from_sim no)
-				(at 280.67 123.19 0)
+				(at 449.58 96.52 0)
 				(size 10.16 3.175)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -8087,7 +7841,7 @@
 			)
 			(table_cell "RX"
 				(exclude_from_sim no)
-				(at 290.83 123.19 0)
+				(at 459.74 96.52 0)
 				(size 8.89 3.175)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -8104,7 +7858,7 @@
 			)
 			(table_cell "1"
 				(exclude_from_sim no)
-				(at 252.73 126.365 0)
+				(at 421.64 99.695 0)
 				(size 10.16 3.175)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -8121,7 +7875,7 @@
 			)
 			(table_cell "HIGH"
 				(exclude_from_sim no)
-				(at 262.89 126.365 0)
+				(at 431.8 99.695 0)
 				(size 17.78 3.175)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -8138,7 +7892,7 @@
 			)
 			(table_cell "RF1"
 				(exclude_from_sim no)
-				(at 280.67 126.365 0)
+				(at 449.58 99.695 0)
 				(size 10.16 3.175)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -8155,7 +7909,7 @@
 			)
 			(table_cell "TX"
 				(exclude_from_sim no)
-				(at 290.83 126.365 0)
+				(at 459.74 99.695 0)
 				(size 8.89 3.175)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -8566,9 +8320,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 330.2 118.11 0)
-		(mirror y)
+		(lib_id "power:GND")
+		(at 186.69 250.19 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8576,31 +8329,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "081287e6-5743-4a86-8452-745375eda41a")
-		(property "Reference" "R11"
-			(at 327.66 116.8399 0)
+		(fields_autoplaced yes)
+		(uuid "0b4cffa5-a487-4d3f-b103-6bdb680ed6fa")
+		(property "Reference" "#PWR080"
+			(at 186.69 256.54 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "10k"
-			(at 330.2 120.142 90)
+		(property "Value" "GND"
+			(at 186.69 255.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 331.978 118.11 90)
+		(property "Footprint" ""
+			(at 186.69 250.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8611,7 +8364,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 330.2 118.11 0)
+			(at 186.69 250.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8621,8 +8374,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 330.2 118.11 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 186.69 250.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8631,17 +8384,14 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "2"
-			(uuid "559fc125-f612-40f3-84e1-8d2032d43d08")
 		)
 		(pin "1"
-			(uuid "bad48b65-7fc6-4038-8ec9-a7edd21001a1")
+			(uuid "cfde61e8-614f-4e5f-8200-26a5a3df68ac")
 		)
 		(instances
 			(project "Unified UHF"
 				(path "/1be17eac-b555-466e-8bd3-43262e2e1b9c"
-					(reference "R11")
+					(reference "#PWR080")
 					(unit 1)
 				)
 			)
@@ -9358,83 +9108,6 @@
 			(project "Unified UHF"
 				(path "/1be17eac-b555-466e-8bd3-43262e2e1b9c"
 					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 247.65 191.77 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "1e1b432f-12ff-4b32-b7a1-576e3b14561b")
-		(property "Reference" "TP10"
-			(at 250.952 188.722 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 250.19 186.182 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 252.73 191.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 252.73 191.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 247.65 191.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "20bf003d-13ce-4cdf-a310-bd978abb6adf")
-		)
-		(instances
-			(project "Unified UHF"
-				(path "/1be17eac-b555-466e-8bd3-43262e2e1b9c"
-					(reference "TP10")
 					(unit 1)
 				)
 			)
@@ -10580,83 +10253,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 364.49 195.58 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "307209d5-4784-4266-98dc-eb06de97aea3")
-		(property "Reference" "TP13"
-			(at 368.046 192.024 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 367.03 189.992 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 369.57 195.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 369.57 195.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 364.49 195.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6cc1f152-f324-4475-a36d-b030d4dbc523")
-		)
-		(instances
-			(project "Unified UHF"
-				(path "/1be17eac-b555-466e-8bd3-43262e2e1b9c"
-					(reference "TP13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
 		(at 55.88 226.06 0)
 		(mirror y)
@@ -11049,162 +10645,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 203.2 251.46 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3bd1bb36-31d1-4d74-b3bf-db4e1f235c41")
-		(property "Reference" "#PWR081"
-			(at 203.2 257.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 203.2 255.5931 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 203.2 251.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 203.2 251.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 203.2 251.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "94dc5d46-41be-42df-bab6-5916da9b542a")
-		)
-		(instances
-			(project "Unified UHF"
-				(path "/1be17eac-b555-466e-8bd3-43262e2e1b9c"
-					(reference "#PWR081")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 355.6 147.32 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3bd55ea3-bb7f-49c9-aad1-b3a162e5b9cb")
-		(property "Reference" "#PWR067"
-			(at 355.6 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 355.6 152.4 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 355.6 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 355.6 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 355.6 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "014e616a-350c-4389-9197-732c7af88d81")
-		)
-		(instances
-			(project "Unified UHF"
-				(path "/1be17eac-b555-466e-8bd3-43262e2e1b9c"
-					(reference "#PWR067")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 120.65 177.8 180)
 		(unit 1)
@@ -11280,83 +10720,6 @@
 			(project "Unified UHF"
 				(path "/1be17eac-b555-466e-8bd3-43262e2e1b9c"
 					(reference "C9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 196.85 144.78 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "3e677e58-bc07-47bc-a528-5b90ed995e7f")
-		(property "Reference" "TP8"
-			(at 200.152 147.828 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 199.644 147.574 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 196.85 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 196.85 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 196.85 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "da1bc6ac-760e-4103-b132-3985d30cb02e")
-		)
-		(instances
-			(project "Unified UHF"
-				(path "/1be17eac-b555-466e-8bd3-43262e2e1b9c"
-					(reference "TP8")
 					(unit 1)
 				)
 			)
@@ -11922,83 +11285,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 250.19 80.01 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "47159422-829c-4b97-b5b6-c7f175516554")
-		(property "Reference" "TP11"
-			(at 253.746 76.962 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 252.73 74.422 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 255.27 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 255.27 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 250.19 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8f31cb23-ffb5-472b-a4e3-2c0c22d4821b")
-		)
-		(instances
-			(project "Unified UHF"
-				(path "/1be17eac-b555-466e-8bd3-43262e2e1b9c"
-					(reference "TP11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDD")
 		(at 87.63 87.63 180)
 		(unit 1)
@@ -12150,6 +11436,83 @@
 			(project "Unified UHF"
 				(path "/1be17eac-b555-466e-8bd3-43262e2e1b9c"
 					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 186.69 250.19 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4a2ecc35-1750-4c87-99a9-af0a444423f6")
+		(property "Reference" "TP7"
+			(at 180.594 250.19 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 181.102 247.65 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
+			(at 186.69 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 186.69 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 186.69 250.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f76817c9-8fdc-44ad-9382-5b35c526939a")
+		)
+		(instances
+			(project "Unified UHF"
+				(path "/1be17eac-b555-466e-8bd3-43262e2e1b9c"
+					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -12731,160 +12094,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 149.86 137.16 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "51db62c8-f804-4319-844e-4d6e3118b65e")
-		(property "Reference" "TP5"
-			(at 149.86 131.318 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 152.4 131.572 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 154.94 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 154.94 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 149.86 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ac4bd442-1b23-4b7f-be73-43dad55230f2")
-		)
-		(instances
-			(project "Unified UHF"
-				(path "/1be17eac-b555-466e-8bd3-43262e2e1b9c"
-					(reference "TP5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 217.17 121.92 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5a27366f-3616-4b17-a56e-b0c2aeb1426d")
-		(property "Reference" "TP9"
-			(at 213.868 118.872 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 214.376 119.126 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 217.17 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 217.17 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 217.17 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "79aec875-5662-47ff-8e94-fa7ab869ad3f")
-		)
-		(instances
-			(project "Unified UHF"
-				(path "/1be17eac-b555-466e-8bd3-43262e2e1b9c"
-					(reference "TP9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 262.89 191.77 90)
 		(unit 1)
@@ -12958,6 +12167,83 @@
 			(project "Unified UHF"
 				(path "/1be17eac-b555-466e-8bd3-43262e2e1b9c"
 					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 63.5 246.38 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5c0a34d6-0e28-4390-af3c-0c6987be0aca")
+		(property "Reference" "TP5"
+			(at 63.5 240.538 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 66.04 240.792 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 68.58 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 63.5 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c479fb17-d64d-4898-9b18-cb259e1223d3")
+		)
+		(instances
+			(project "Unified UHF"
+				(path "/1be17eac-b555-466e-8bd3-43262e2e1b9c"
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -13114,83 +12400,6 @@
 			(project "Unified UHF"
 				(path "/1be17eac-b555-466e-8bd3-43262e2e1b9c"
 					(reference "#PWR044")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 359.41 80.01 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "67dba625-8107-49df-a40f-4b876d961b41")
-		(property "Reference" "TP12"
-			(at 363.474 77.47 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 361.95 74.422 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 364.49 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 364.49 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 359.41 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a11d6f27-cce1-47bc-b984-34ca2d5f02a8")
-		)
-		(instances
-			(project "Unified UHF"
-				(path "/1be17eac-b555-466e-8bd3-43262e2e1b9c"
-					(reference "TP12")
 					(unit 1)
 				)
 			)
@@ -13758,6 +12967,84 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 218.44 250.19 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "71568734-6085-40e6-8b81-7759c8fbb719")
+		(property "Reference" "#PWR083"
+			(at 218.44 256.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 218.44 255.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 218.44 250.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 250.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 218.44 250.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "531b4fb3-d3b5-49e7-a029-d8eac8396bc4")
+		)
+		(instances
+			(project "Unified UHF"
+				(path "/1be17eac-b555-466e-8bd3-43262e2e1b9c"
+					(reference "#PWR083")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 300.99 64.77 270)
 		(unit 1)
 		(body_style 1)
@@ -14067,6 +13354,84 @@
 			(project "Unified UHF"
 				(path "/1be17eac-b555-466e-8bd3-43262e2e1b9c"
 					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 356.87 147.32 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "78a77e95-8714-4097-8223-3becb545002a")
+		(property "Reference" "#PWR059"
+			(at 356.87 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 356.87 152.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 356.87 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 356.87 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 356.87 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b6dca968-7ed6-4aff-bc7b-79e47eee9c97")
+		)
+		(instances
+			(project "Unified UHF"
+				(path "/1be17eac-b555-466e-8bd3-43262e2e1b9c"
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -15243,83 +14608,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 187.96 191.77 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8aaeae06-1b34-46ca-94b8-f068390f9d9f")
-		(property "Reference" "TP7"
-			(at 182.626 195.58 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 185.42 197.358 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 182.88 191.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 182.88 191.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 187.96 191.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "eb675e12-4a35-471f-b444-7fa5f562371a")
-		)
-		(instances
-			(project "Unified UHF"
-				(path "/1be17eac-b555-466e-8bd3-43262e2e1b9c"
-					(reference "TP7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 207.01 113.03 0)
 		(unit 1)
@@ -15881,7 +15169,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
+		(lib_id "Mechanical:MountingHole_Pad")
 		(at 210.82 247.65 0)
 		(unit 1)
 		(body_style 1)
@@ -15892,7 +15180,7 @@
 		(dnp no)
 		(uuid "9cc87ab3-f9d3-46bd-a7bf-1d934e2e8fb2")
 		(property "Reference" "H3"
-			(at 209.55 244.348 0)
+			(at 209.55 243.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15935,7 +15223,7 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
+		(property "Description" "Mounting Hole with connection"
 			(at 210.82 247.65 0)
 			(hide yes)
 			(show_name no)
@@ -15945,6 +15233,9 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(pin "1"
+			(uuid "cd92d386-784f-4541-8ecd-dd87b4c26ea7")
 		)
 		(instances
 			(project "Unified UHF"
@@ -16430,19 +15721,28 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 210.82 251.46 0)
+		(lib_id "Connector:TestPoint")
+		(at 63.5 267.97 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a69ef7a7-28a3-4036-ac36-68bbc82fbcc8")
-		(property "Reference" "#PWR082"
-			(at 210.82 257.81 0)
+		(uuid "a7486973-0323-4005-83fd-ee684dcfb3e7")
+		(property "Reference" "TP6"
+			(at 63.5 262.128 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 66.04 262.382 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16452,18 +15752,8 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 210.82 255.5931 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 210.82 251.46 0)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 68.58 267.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16474,7 +15764,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 210.82 251.46 0)
+			(at 68.58 267.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16484,8 +15774,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 210.82 251.46 0)
+		(property "Description" "test point"
+			(at 63.5 267.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16496,12 +15786,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "408cb8b5-47b7-4c1b-ac91-fc5ca4f75140")
+			(uuid "2715ea93-7a73-4e28-95ad-b51716fd7415")
 		)
 		(instances
 			(project "Unified UHF"
 				(path "/1be17eac-b555-466e-8bd3-43262e2e1b9c"
-					(reference "#PWR082")
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -18086,6 +17376,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 210.82 250.19 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bf6ea2c8-dbed-4c49-83dc-d7470a515074")
+		(property "Reference" "#PWR082"
+			(at 210.82 256.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 210.82 255.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 210.82 250.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 250.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 210.82 250.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a46469f9-385d-464a-8b56-2c7b687a4a68")
+		)
+		(instances
+			(project "Unified UHF"
+				(path "/1be17eac-b555-466e-8bd3-43262e2e1b9c"
+					(reference "#PWR082")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 133.35 177.8 0)
 		(mirror x)
@@ -18565,8 +17933,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 195.58 247.65 0)
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 186.69 247.65 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -18577,7 +17945,7 @@
 		(dnp no)
 		(uuid "c91eaaf7-82c4-49db-8503-bf9f98e8af1d")
 		(property "Reference" "H1"
-			(at 197.104 244.602 0)
+			(at 188.214 243.586 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18588,7 +17956,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 196.85 237.49 0)
+			(at 187.96 237.49 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18599,7 +17967,7 @@
 			)
 		)
 		(property "Footprint" "RF Frontend Footprints:MountingHole_3.4mm_Pad(edited from 3.5mm hole)"
-			(at 195.58 247.65 0)
+			(at 186.69 247.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18610,7 +17978,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 195.58 247.65 0)
+			(at 186.69 247.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18620,8 +17988,8 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
-			(at 195.58 247.65 0)
+		(property "Description" "Mounting Hole with connection"
+			(at 186.69 247.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18630,6 +17998,9 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(pin "1"
+			(uuid "9d718f66-c8b8-4ec9-b895-8a6de88a2c4c")
 		)
 		(instances
 			(project "Unified UHF"
@@ -18716,164 +18087,6 @@
 			(project "Unified UHF"
 				(path "/1be17eac-b555-466e-8bd3-43262e2e1b9c"
 					(reference "C7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 396.24 137.16 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c9672e52-b39e-4dd1-9424-c8f134f06828")
-		(property "Reference" "TP14"
-			(at 395.986 131.064 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 398.78 131.572 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 401.32 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 401.32 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 396.24 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ab9176bd-95f0-4271-a178-588412d80d58")
-		)
-		(instances
-			(project "Unified UHF"
-				(path "/1be17eac-b555-466e-8bd3-43262e2e1b9c"
-					(reference "TP14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 355.6 143.51 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "cab2bdbc-5c40-4068-8b6c-f9b67cc64ae6")
-		(property "Reference" "C30"
-			(at 348.996 141.732 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100p"
-			(at 346.964 144.272 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 356.5652 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 355.6 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 355.6 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "21ec6230-c3dd-43df-a8a3-be647256fa8b")
-		)
-		(pin "2"
-			(uuid "76301840-ef5a-4bf8-ad99-4c87cba3f115")
-		)
-		(instances
-			(project "Unified UHF"
-				(path "/1be17eac-b555-466e-8bd3-43262e2e1b9c"
-					(reference "C30")
 					(unit 1)
 				)
 			)
@@ -19439,84 +18652,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 195.58 251.46 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d1192218-ac96-405c-b1ac-1febae911282")
-		(property "Reference" "#PWR080"
-			(at 195.58 257.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 195.58 255.5931 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 195.58 251.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 195.58 251.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 195.58 251.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "942e4f6a-b998-4d7d-a61f-c557c48cd6c5")
-		)
-		(instances
-			(project "Unified UHF"
-				(path "/1be17eac-b555-466e-8bd3-43262e2e1b9c"
-					(reference "#PWR080")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 222.25 118.11 0)
 		(unit 1)
@@ -19598,85 +18733,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 218.44 251.46 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d3057a2d-b05e-4de7-9498-4d2079100ae5")
-		(property "Reference" "#PWR083"
-			(at 218.44 257.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 218.44 255.5931 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 218.44 251.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 218.44 251.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 218.44 251.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "185fe12a-fa03-4897-a1fd-5ea9d02b6fff")
-		)
-		(instances
-			(project "Unified UHF"
-				(path "/1be17eac-b555-466e-8bd3-43262e2e1b9c"
-					(reference "#PWR083")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
+		(lib_id "Mechanical:MountingHole_Pad")
 		(at 203.2 247.65 0)
 		(unit 1)
 		(body_style 1)
@@ -19687,7 +18744,7 @@
 		(dnp no)
 		(uuid "d3ea7e2e-616d-41e4-ab41-56854bc04fa6")
 		(property "Reference" "H2"
-			(at 201.93 244.602 0)
+			(at 201.93 243.586 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19730,7 +18787,7 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
+		(property "Description" "Mounting Hole with connection"
 			(at 203.2 247.65 0)
 			(hide yes)
 			(show_name no)
@@ -19740,6 +18797,9 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(pin "1"
+			(uuid "95922683-db66-4485-bfc6-f10cfb6aede7")
 		)
 		(instances
 			(project "Unified UHF"
@@ -19907,85 +18967,6 @@
 			(project "Unified UHF"
 				(path "/1be17eac-b555-466e-8bd3-43262e2e1b9c"
 					(reference "#PWR046")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 330.2 130.81 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "db68da76-996a-47e5-8ed8-6184818799e6")
-		(property "Reference" "#PWR059"
-			(at 330.2 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 330.2 135.89 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 330.2 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 330.2 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 330.2 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4ff887c9-0134-46da-a99f-2f8d54f2a726")
-		)
-		(instances
-			(project "Unified UHF"
-				(path "/1be17eac-b555-466e-8bd3-43262e2e1b9c"
-					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -20386,9 +19367,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 330.2 125.73 0)
-		(mirror y)
+		(lib_id "power:GND")
+		(at 203.2 250.19 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20396,31 +19376,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "e3149e9f-e6f6-436d-bb6c-5ddb30aba1d1")
-		(property "Reference" "R12"
-			(at 327.66 124.4599 0)
+		(fields_autoplaced yes)
+		(uuid "e2570e92-7c75-4450-8982-3221f1eaf0b6")
+		(property "Reference" "#PWR081"
+			(at 203.2 256.54 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "5.6k"
-			(at 330.2 128.016 90)
+		(property "Value" "GND"
+			(at 203.2 255.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 331.978 125.73 90)
+		(property "Footprint" ""
+			(at 203.2 250.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20431,7 +19411,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 330.2 125.73 0)
+			(at 203.2 250.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20441,8 +19421,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 330.2 125.73 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 203.2 250.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20451,17 +19431,14 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "2"
-			(uuid "8cafe363-16a6-400a-8b90-77a415f3e7e1")
 		)
 		(pin "1"
-			(uuid "4ad97fa7-ec7d-4409-838a-3ea132b7032b")
+			(uuid "0ce26ef9-34cf-4fac-b9a5-4225df11098b")
 		)
 		(instances
 			(project "Unified UHF"
 				(path "/1be17eac-b555-466e-8bd3-43262e2e1b9c"
-					(reference "R12")
+					(reference "#PWR081")
 					(unit 1)
 				)
 			)
@@ -21169,7 +20146,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
+		(lib_id "Mechanical:MountingHole_Pad")
 		(at 218.44 247.65 0)
 		(unit 1)
 		(body_style 1)
@@ -21180,7 +20157,7 @@
 		(dnp no)
 		(uuid "eeaffafa-dfdb-466a-af67-c2a83cd9dd13")
 		(property "Reference" "H4"
-			(at 217.17 244.094 0)
+			(at 217.17 243.586 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21223,7 +20200,7 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
+		(property "Description" "Mounting Hole with connection"
 			(at 218.44 247.65 0)
 			(hide yes)
 			(show_name no)
@@ -21233,6 +20210,9 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(pin "1"
+			(uuid "5078f7fe-2f51-4532-9b31-5ada15f5a908")
 		)
 		(instances
 			(project "Unified UHF"
@@ -21881,39 +20861,40 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 185.42 80.01 0)
+		(lib_id "Device:C")
+		(at 356.87 143.51 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "ffd97c58-7234-437a-b3b0-9a970a816891")
-		(property "Reference" "TP6"
-			(at 188.976 76.454 0)
+		(uuid "ff45c65a-e690-4218-b138-9d8faf5fd723")
+		(property "Reference" "C30"
+			(at 350.266 141.732 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
-			(at 187.96 76.708 90)
-			(hide yes)
+		(property "Value" "100p"
+			(at 348.234 144.272 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 190.5 80.01 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 357.8352 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21924,7 +20905,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 80.01 0)
+			(at 356.87 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21934,8 +20915,8 @@
 				)
 			)
 		)
-		(property "Description" "test point"
-			(at 185.42 80.01 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 356.87 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21946,12 +20927,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "672ab40f-6d14-452c-835e-2129845f6d0d")
+			(uuid "72423ed9-191a-4726-a9c4-e2c030be2f6e")
+		)
+		(pin "2"
+			(uuid "19ecf9a1-7c8a-492a-b236-3e46b55b4fe0")
 		)
 		(instances
 			(project "Unified UHF"
 				(path "/1be17eac-b555-466e-8bd3-43262e2e1b9c"
-					(reference "TP6")
+					(reference "C30")
 					(unit 1)
 				)
 			)
