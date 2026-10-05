@@ -5923,6 +5923,12 @@
 		(uuid "9d35515d-0423-4393-9fde-09b629ba9b6d")
 	)
 	(junction
+		(at 66.04 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a44f4e53-f3a3-4fa7-bff1-9a82666fd9ff")
+	)
+	(junction
 		(at 278.13 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6492,6 +6498,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 116.84) (xy 68.58 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "455d83f9-b018-4db0-8099-80126c92f1da")
+	)
+	(wire
+		(pts
 			(xy 195.58 139.7) (xy 196.85 139.7)
 		)
 		(stroke
@@ -6992,16 +7008,6 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 116.84) (xy 68.58 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c61c0d5-261d-4f9f-acde-9add36bd75fa")
-	)
-	(wire
-		(pts
 			(xy 106.68 165.1) (xy 120.65 165.1)
 		)
 		(stroke
@@ -7149,6 +7155,16 @@
 			(type default)
 		)
 		(uuid "a18f2bf4-1ac9-45ce-a4ef-60909936fbd0")
+	)
+	(wire
+		(pts
+			(xy 66.04 114.3) (xy 66.04 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1f9de2f-7304-4f8c-9860-df4d04664fdb")
 	)
 	(wire
 		(pts
@@ -8807,10 +8823,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1a39fee9-6f70-4fbc-b301-2077ada15016")
 		(property "Reference" "C2"
-			(at 60.96 110.4899 0)
+			(at 58.42 107.696 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8821,7 +8836,7 @@
 			)
 		)
 		(property "Value" "4.7n"
-			(at 60.96 113.0299 0)
+			(at 57.912 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10488,6 +10503,87 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 66.04 120.65 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "365b3bd1-dedf-4f97-8b16-9eeec079d4a7")
+		(property "Reference" "R11"
+			(at 63.5 120.396 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 66.04 118.618 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 67.818 120.65 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 66.04 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "6f01e53f-2819-481c-acc4-29c968a5fe3d")
+		)
+		(pin "1"
+			(uuid "3b70af0c-c656-4caa-863e-158416528cd9")
+		)
+		(instances
+			(project "Unified UHF"
+				(path "/1be17eac-b555-466e-8bd3-43262e2e1b9c"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 193.04 156.21 90)
 		(unit 1)
 		(body_style 1)
@@ -10797,6 +10893,83 @@
 			(project "Unified UHF"
 				(path "/1be17eac-b555-466e-8bd3-43262e2e1b9c"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 66.04 114.3 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3fc563a6-294e-40f1-9b9a-8011f997e2f8")
+		(property "Reference" "#PWR010"
+			(at 66.04 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 66.04 110.49 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 66.04 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "411c66f3-1e5e-4bdd-b0dd-6d930da2d63f")
+		)
+		(instances
+			(project "Unified UHF"
+				(path "/1be17eac-b555-466e-8bd3-43262e2e1b9c"
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
